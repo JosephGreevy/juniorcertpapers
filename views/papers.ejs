@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+<%- include('partials/filter') %>
+<div class="papers-container">
+	<div class="heading">
+		<div  class="subject-name">
+			<% if(subject !== "cspe"){ %>
+				<%= subject.charAt(0).toUpperCase() + subject.slice(1) %>
+			<%  }else{ %>
+				<%= subject.toUpperCase() %>
+			<% } %>
+		</div>
+	</div>
+	<div class="papers-flexbox">
+		<% for (var i = 0; i < juniorCert[subject.toLowerCase()]["years"].length; i++) { %>
+			<% var currentYear = juniorCert[subject.toLowerCase()]["years"][i]; %>
+			<% var papersList      = juniorCert[subject.toLowerCase()][level][currentYear]; %>
+			<div class="section">
+				<div class="year">
+					<%= currentYear %>
+				</div>
+				<% if(papersList){ %>
+					<% for (var x = 0; x < papersList.length; x++) { %>
+						<div class="papers">
+							<div class="paper">
+								<a  class="paper-link" href="<%= papersList[x][1]%>" target="_blank"><%= papersList[x][0] %></a>
+							</div>
+							<div class="solutions">
+								<a class="paper-link" href="<% papersList[x][3]%>" target="_blank">Solutions</a>
+							</div>
+						</div> 
+					<% } %>
+				<% } %>
+					
+			</div>
+		<% } %>
+	</div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,33 @@
+<script type="text/javascript">
+	var local_subject = "<%= subject %>"
+	var local_level = "<%= level %>";
+	var local_feature = "<%= feature %>"
+	console.log(local_subject, local_level, local_feature);
+</script>
+<div>
+	<div class="form-container">
+		<form class="flexbox">
+				<div class="subjects-select">
+					<ul>
+						<li onclick="toggleSubjects(event)" class="selected">
+							<%= subject.charAt(0).toUpperCase() + subject.slice(1) %>		
+						</li>
+						<% for(let i = 0; i < juniorCert.subjects.length; i++){ %>
+
+							<% if(juniorCert.subjects[i] !== subject){ %>
+								<li class=""><%= juniorCert.subjects[i] %></li>
+							<% } %>
+						<% } %>
+					</ul>
+			    </div>
+				<div class="toggle">
+					<button type="button" class="filter-button"  onclick="toggleLevel(event)">HL</button>
+					<button type="button" class="filter-button"  onclick="toggleLevel(event)">OL</button>
+				</div>
+				<div class="feature">
+					<button type="button" class="filter-button"  onclick="toggleFeature(event)">Papers</button>
+					<button type="button" class="filter-button" onclick="toggleFeature(event)">Analysis</button>
+				</div>
+		</form>
+	</div>
+</div>

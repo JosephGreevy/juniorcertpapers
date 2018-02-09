@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+<%- include('partials/message') %>
+<%- include('partials/filter') %>
+
+<div class="auth-container">
+	<div class="form-content">
+		<div class="form-title">Registration</div>
+		<div class="forms">
+			<a href="/auth/facebook" class="fb">
+				<img src="/images/facebook.png"/>
+				Sign Up with Facebook
+			</a>
+			<div class="or">OR</div>
+			<form ngForm action="/register" method="post">
+			    <div class="input-group">
+			        <input class="form-input" placeholder="Username" type="text" name="username" id="username"
+			         required minlength="4" maxlength="30" pattern="^[a-zA-Z0-9_.-]*$"/>
+			    </div>
+			    <div class="input-group">
+			        <input class="form-input" placeholder="Email" type="email" name="email" id="email" #email="ngModel" 
+			        required ngModel (ngModelChange)="validateEmail($event)" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" />
+			    </div class="input-group">
+			    <div class="input-group">
+			        <input class="form-input" placeholder="School Name" type="school" name="school" id="school" required ngModel/>
+			    </div>
+			    <div class="input-group">
+			        <input class="form-input" placeholder="Password" type="password" name="password" id="password" #password="ngModel"
+			        required minlength="5" maxlength="20" ngModel/>
+			    </div>
+			    <div>
+			        <button id="submit" type="submit">
+			        	Register
+			    	</button>
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+<%- include('partials/message') %>
+<%- include('partials/filter') %>
+
+<div class="auth-container">
+	<div class="form-content">
+		<div class="form-title">Login</div>
+		<div class="forms">
+			<a href="/auth/facebook" class="fb">
+				<img src="/images/facebook.png"/>
+				Sign Up with Facebook
+			</a>
+			<div class="or">OR</div>
+			<form action="/login" method="post">
+			    <div>
+			        <input class="form-input" placeholder="Username or Email" type="text" name="username" id="username" required ngModel/>
+			    </div>
+			    <div>
+			        <input class="form-input" placeholder="Password" type="password" name="password" id="password" required ngModel/>
+			    </div>
+			    <div>
+			        <button class="form-input" id="submit" type="submit">Login</button>
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<%- include('partials/footer') %>

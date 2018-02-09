@@ -1,0 +1,8 @@
+<% if(message){ %>
+	<% if(message.success){ %>
+		<div  class="message success"><%= message.success %></div>
+	<% } %>
+	<% if(message.error){ %>
+		<div  class="message error"><%= message.error %></div>
+	<% } %>
+<% } %>

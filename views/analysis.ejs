@@ -1,0 +1,48 @@
+<%- include('partials/header') %>
+<%- include('partials/filter') %>
+<script type="text/javascript">
+	let questions = <%- JSON.stringify(analysis[subject]["hl"]) %>;
+	console.log(questions);
+
+</script>
+<div class="analysis-container">
+	<% let categories = analysis[subject].categories; %>
+	<% let text = analysis[subject].text; %>	
+	<div class="categories">
+		<h3>Categories</h3>
+		<ul>
+			<% for (var i = 0; i < categories.length; i++) { %>
+				<li 
+					<% if(user){ %>
+						onClick="changeCat('<%= categories[i] %>')"
+					<% } %>
+						><%= categories[i] %></li>
+			<% } %>
+		</ul>
+	</div>
+	<div class="right" > 
+		
+		<% if(!user){ %>
+			<div *ngIf="!loggedIn" class="details"> 
+				<h1>Access Denied</h1>
+				<hr>
+				<h2>You need to login or register to access Exam Paper Analysis</h2>
+				<h4>Exam Paper Analysis is free for the moment so you might as well try it out</h4>
+				<div class="btns">
+					<a routerLink="/subjects">Papers</a>
+					<a routerLink="/registration">SignUp</a>
+				</div>
+			</div>
+		<% } %>
+		<% if(user){ %>
+			<div  class="details">
+				<%- text %>
+			</div> 
+			<ul class="questions">
+				
+			</ul>
+		<% } %>
+
+	</div>
+</div>
+<%- include('partials/footer') %>
