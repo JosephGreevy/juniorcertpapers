@@ -1,4 +1,12 @@
-<%- include('partials/header') %>
+<% let subjectDisplay = ""; %>
+<% if(subject !== "cspe"){ %>
+	<% subjectDisplay = subject.charAt(0).toUpperCase() + subject.slice(1); %>
+<%  }else{ %>
+	<% subjectDisplay = subject.toUpperCase(); %>
+<% } %>
+<%- include('partials/header',
+	 {title : subjectDisplay  + " Analysis", desc : "Access all the questions for a certain topic relating to " + subjectDisplay}) %>
+<%- include('partials/message') %>
 <%- include('partials/filter') %>
 <script type="text/javascript">
 	let questions = <%- JSON.stringify(analysis[subject]["hl"]) %>;

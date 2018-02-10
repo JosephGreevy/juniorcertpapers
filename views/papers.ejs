@@ -1,13 +1,16 @@
-<%- include('partials/header') %>
+<% let subjectDisplay = ""; %>
+<% if(subject !== "cspe"){ %>
+	<% subjectDisplay = subject.charAt(0).toUpperCase() + subject.slice(1); %>
+<%  }else{ %>
+	<% subjectDisplay = subject.toUpperCase(); %>
+<% } %>
+<%- include('partials/header', {title : "Junior Cert " + subjectDisplay  + " Past Papers", desc : "JC-Papers is the best way to study Junior Cert Past Papers"}) %>
+<%- include('partials/message') %>
 <%- include('partials/filter') %>
 <div class="papers-container">
 	<div class="heading">
 		<div  class="subject-name">
-			<% if(subject !== "cspe"){ %>
-				<%= subject.charAt(0).toUpperCase() + subject.slice(1) %>
-			<%  }else{ %>
-				<%= subject.toUpperCase() %>
-			<% } %>
+			<%= subjectDisplay %>
 		</div>
 	</div>
 	<div class="papers-flexbox">
