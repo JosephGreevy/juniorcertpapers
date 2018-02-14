@@ -27,6 +27,14 @@ function changeCat(cat){
 					"</div>" +
 					"<img class='display'  src=" + questions[i].src + ">" +
 					"<img class='display' style='display:none'  src=" + questions[i].ms + ">";
+			if(questions[i].hasOwnProperty("audio")){
+				let extra =
+					"<audio controls>" +
+						"<source src='" + questions[i].audio + "' type='audio/mpeg'>" +
+						"Your browser doesn't support audio" +
+					"</audio>"
+				template += extra; 
+			}
 			item.innerHTML = template;
 			questionList.appendChild(item);
 			displaying[i] = true;
