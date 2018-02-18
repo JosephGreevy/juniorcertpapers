@@ -1,7 +1,7 @@
 {
   "maths": {
     "text": "There are 2 maths papers",
-    "categories": ["Factorising", "Quadratics", "Algebra", "Applied Arithmetic", "Trigonometry", "Probability",
+    "categories": ["Factorising", "Quadratics", "Algebra", "Applied Arithmetic", "Scientific Notation", "Indices", "Trigonometry", "Probability",
                    "Functions", "Sets", "Functions", "Sequences", "Co-ordinate Geometry", "Geometry"],
     "hl": [
       {
@@ -23,7 +23,7 @@
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 3",
-        "tags": [],
+        "tags": ["Scientific Notation"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q3.png",
         "ms": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q3-MS.png",
         "difficulty": 1
@@ -31,7 +31,7 @@
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 4",
-        "tags": [],
+        "tags": ["Applied Arithmetic"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q4.png",
         "ms": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q4-MS.png",
         "difficulty": 1
@@ -39,7 +39,7 @@
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 5",
-        "tags": [],
+        "tags": ["Applied Arithmetic"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q5.png",
         "ms": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q5-MS.png",
         "difficulty": 1
@@ -62,21 +62,21 @@
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 8",
-        "tags": [],
+        "tags": ["Co-ordinate Geometry", "Functions"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q8.png",
         "difficulty": 1
       },
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 9",
-        "tags": [],
+        "tags": ["Quadratics"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q9.png",
         "difficulty": 1
       },
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 10",
-        "tags": [],
+        "tags": ["Indices"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q10.png",
         "difficulty": 1
       },
@@ -90,29 +90,36 @@
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 12",
-        "tags": [],
+        "tags": ["Factorising", "Algebra"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q12.png",
         "difficulty": 1
       },
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 13",
-        "tags": [],
+        "tags": ["Functions"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q13.png",
         "difficulty": 1
       },
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 14",
-        "tags": [],
+        "tags": ["Sequences"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q14.png",
         "difficulty": 1
       },
       {
         "year": 2017,
         "name": "2017 - Paper 1 - Question 15",
-        "tags": [],
+        "tags": ["Functions"],
         "src": "/ActualPapers/Maths/hl/screenshots/2017-P1-Q15.png",
+        "difficulty": 1
+      },
+      {
+        "year": 2017,
+        "name": "2017 - Paper 2 - Question 1",
+        "tags": ["Functions"],
+        "src": "/ActualPapers/Maths/hl/screenshots/2017-P2-Q1.png",
         "difficulty": 1
       }
     ]
