@@ -4,6 +4,7 @@ const LocalStrategy  		= require("passport-local").Strategy;
 const FacebookStrategy      = require("passport-facebook").Strategy;
 const bCrypt                = require("bcrypt-nodejs");
 const fbConfig              = require("../config/facebook");
+const transporter           = require("../config/transporter");
 
 // Facebook Import
 
@@ -44,7 +45,20 @@ module.exports = function(passport){
 					newUser.local.password = createHash(password);
 					newUser.save(function(err){
 						if(err){
-							console.log("Error saving user", err);						}
+							console.log("Error saving user", err);	
+						}
+						let mailOptions = {
+							from : '"Joseph" <jpgreevy@gmail.com',
+							to : req.body.email,
+							subject : "Successful Registration to JC Papers",
+							html : "Thank you for registering to JC Papers"
+						}
+						transporter.sendMail(mailOptions, (error, data) => {
+							if(error){
+								return console.log(error);
+							}
+							console.log("Email was sent");
+						});
 						return done(null, newUser, req.flash("success", username + " has successfully registered"));
 					});
 				}
@@ -102,7 +116,18 @@ module.exports = function(passport){
 						console.log(err);
 						throw err;
 					}
-					// return cb(null, newUser);   
+					let mailOptions = {
+						from : '"Joseph" <jpgreevy@gmail.com',
+						to : req.body.email,
+						subject : "Successful Registration to JC Papers",
+						html : "Thank you for registering to JC Papers via Facebook"
+					}
+					transporter.sendMail(mailOptions, (error, data) => {
+						if(error){
+							return console.log(error);
+						}
+						console.log("Email was sent");
+					});  
 	                return cb(null, newUser, req.flash("success", newUser.facebook.name + " has successfully registered"));
 				})
 
