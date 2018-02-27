@@ -2,9 +2,12 @@ const express       = require("express");
 const app           = express();
 const router        = express.Router();
 const passport      = require("passport");
+const stripe        = require("stripe")("sk_test_wjdasnUAO3hAL20gLI91gypi");
 
 const papers        = require("../public/data/papers.json");
 const analysis      = require("../public/data/analysis.json");
+const User          = require("../models/user");
+const transporter   = require("../config/transporter");
 
 var isAuthenticated = function (req, res, next) {
 	// if user is authenticated in the session, call the next() to call the next request handler 
@@ -15,7 +18,7 @@ var isAuthenticated = function (req, res, next) {
 		return next();
 	}
 	// if the user is not authenticated then redirect him to the login page
-	req.flash("error", "Why would you want to do that?");
+	req.flash("error", "You have to be logged in to do that");
 	res.redirect('/login');
 }
 
@@ -28,6 +31,15 @@ var notAuthenticated = function (req, res, next) {
 	// if the user is not authenticated then redirect him to the login page
 	req.flash("error", "You can't do that");
 	res.redirect('/subjects');
+}
+var notVerified = function(req, res, next){
+	if(req.user.local.verified || req.user.facebook.verified){
+		req.flash("error", "Your email is already verified");
+		res.redirect('/profile');
+	}else{
+		return next();
+	}
+
 }
 
 router.use(function(req, res, next){
@@ -64,6 +76,12 @@ router.get('/:subject/:level/analysis', (req, res) => {
 router.get('/about', (req, res) => {
 	res.render("about");
 });
+router.get('/profile', isAuthenticated, (req, res) => {
+	res.render("profile");
+});
+router.get('/upgrade', isAuthenticated, (req, res) => {
+	res.render('upgrade');
+});
 // Authentication Requests
 router.post('/register', 
 	passport.authenticate("register", { failureRedirect : '/register'}), 
@@ -87,6 +105,137 @@ router.get("/logout", isAuthenticated, function(req, res){
 router.get('/auth/facebook', passport.authenticate('facebook', { 
   scope : ['email']
 }));
+
+router.post("/pay", (req, res) => {
+	var token = req.body.stripeToken;
+	console.log(token);
+	stripe.charges.create({
+		amount: 999,
+		currency: "eur",
+		description: "Example charge",
+		source: token,
+	}, function(err, charge) {
+		console.log(charge);
+		console.log(req.user.local.username || req.user.facebook.name);
+		
+		if(req.user.local){
+			if(req.user.local.expires === null){
+				var expires = new Date();
+				expires.setDate(expires.getDate() + 152);
+			}else{
+				var expires = new Date(req.user.local.expires);
+				console.log("New Date() = " + expires);
+				expires.setDate(expires.getDate() + 152);
+				console.log("Expires = " + expires);
+			}
+			User.findOneAndUpdate( { "local.username" : req.user.local.username }, { $set: {
+				"local.subscribed" : 2,
+				"local.expires"    : expires
+			 } }, function(err, updatedUser){
+				if(err){
+					console.log(err);
+					res.redirect("/about");
+				}else{
+					console.log(updatedUser);
+					res.redirect("/profile");
+				}
+			});
+		}else{
+			if(req.user.facebook.expires === null){
+				var expires = new Date();
+				expires.setDate(expires.getDate() + 152);
+			}else{
+				var expires = new Date(req.user.facebook.expires);
+				console.log("New Date() = " + expires);
+				expires.setDate(expires.getDate() + 152);
+				console.log("Expires = " + expires);
+			}
+			User.findOneAndUpdate( { "facebook.name" : req.user.facebook.namename }, { $set: {
+				"facebook.subscribed" : 2,
+				"facebook.expires"    : expires
+			 } }, function(err, updatedUser){
+				if(err){
+					console.log(err);
+					res.redirect("/about");
+				}else{
+					console.log(updatedUser);
+					res.redirect("/profile");
+				}
+			});
+		}
+		
+	});
+});
+// Email Verfiication
+router.get('/verify/:token', (req, res) => {
+	var token = req.params.token;
+	User.findOneAndUpdate({'local.emailToken' : token}, { $set : {
+		"local.emailToken" : null,
+		"local.verified" : true
+	}}, function(err, user){
+		if(err){
+			console.log("Error verifying local user " + err);
+		}else if(user){
+			console.log(user);
+			
+			if(isAuthenticated){
+				req.logout();
+			}
+			req.flash('success', 'Email was successfully verified');
+			res.redirect("/login");
+		}else{
+			console.log("User does not exist locally");
+			User.findOneAndUpdate({'facebook.emailToken' : token}, { $set : {
+				"facebook.emailToken" : null,
+				"facebook.verified" : true
+			}}, function(err, user){
+				if(err){
+					console.log("Error verifying facebook user " + err);
+				}else if(user){
+					console.log(user);
+					req.flash("success", "Email was successfully verified");
+					if(isAuthenticated){
+						req.logout();
+					}
+					res.redirect("/login");
+				}else{
+					console.log("User does not exist on facebook");
+				}
+			});
+			req.flash('error', 'Email Verfiication unsuccessful. That token was not associated with any account');
+			if(isAuthenticated){
+				req.logout();
+			}
+			res.redirect('/login');
+		}
+	});
+
+});
+
+router.get("/sendemail", isAuthenticated, notVerified, (req, res) => {
+	let email = req.user.local.email || req.user.facebook.email;
+	let token = req.user.local.emailToken || req.user.facebook.emailToken;
+	let mailOptions = {
+		from : '"Joseph" <jpgreevy@gmail.com',
+		to : email,
+		subject : "JC Papers Email Verification",
+		html : "Click on <a href='http://localhost:5000/verify/" +
+		token +"'>this</a> link in order to verify your email address." +
+		"If you have any questions please do not hesitate to contact us at this email or our facebook page. <br>" +
+		"Kind Regards" 
+	}
+	transporter.sendMail(mailOptions, (error, data) => {
+		if(error){
+			req.flash('error', "Something went wrong while sending the verification email. Sorry about that. :(");
+			res.redirect("/profile");
+			return console.log(error);
+
+		}
+		req.flash('success', "Email was sent successfully");
+		res.redirect("profile");
+		console.log("Email was sent");
+	});
+})
 
 // handle the callback after facebook has authenticated the user
 router.get('/auth/facebook/callback',

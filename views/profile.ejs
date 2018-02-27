@@ -1,0 +1,68 @@
+<%- include('partials/header', {title : "Profile", desc : "Page containing details of user registered to JC Papers"}) %>
+<%- include('partials/message') %>
+<%- include('partials/filter') %>
+<%
+	function formatDate(date) {
+	  var monthNames = [
+	    "January", "February", "March",
+	    "April", "May", "June", "July",
+	    "August", "September", "October",
+	    "November", "December"
+	  ];
+
+	  var day = date.getDate();
+	  var monthIndex = date.getMonth();
+	  var year = date.getFullYear();
+
+	  return day + ' ' + monthNames[monthIndex] + ' ' + year;
+	}
+%>
+<div class="profile-container">
+	<div class="profile-content">
+		<h2>Account Details for <%- (user.local.username || user.facebook.name) %></h2>
+		<hr>
+		<p>Username - <%- (user.local.username || user.facebook.name) %></p>
+
+
+		<p>Email - <%- (user.local.email || user.facebook.email) %></p>
+
+		<p>
+			Verified Email - <% if(user.local.verified || user.facebook.verified) { %>
+								Yes
+							<% }else{ %>
+								No 
+							<% } %>		
+		</p>
+		<% if(user.local.verified || user.facebook.verified) { %>	
+			
+		<% }else {%>
+			<a href="/sendemail">Resend Email</a>
+		<% } %>
+
+
+		<% if(user.local){ %>
+			<p>School - <%= user.local.school %></p>
+		<% } %>
+
+
+		<p>Member Since - <%- formatDate((user.local.created || user.facebook.created)) %></p>
+
+
+		<p>Subscription - 
+			<% if( user.local.subscribed == 2 || user.facebook.subscribed == 2 ){ %>
+				Premium Account
+			<% }else if( user.local.subscribed == 1 || user.facebook.subscribed == 1 ){ %>
+				Basic Account 
+			<% }else if( user.local.subscribed == 0 || user.facebook.subscribed == 0 ){ %>
+				Free Trial
+			<% } %>
+		</p>
+		<% if(user.local.subscribed !== 1 || user.facebook.subscribed !== 1){ %>
+			<p>Expires on <%- formatDate((user.local.expires || user.facebook.expires)) %></p>
+		<% } %>
+		<% if((user.local.subscribed || user.facebook.subscribed) !== 2 ){ %>
+			<a href="/upgrade" class="upgrade">Upgrade to Premium</a>
+		<% } %>
+	</div>
+</div>
+<%- include('partials/footer') %>

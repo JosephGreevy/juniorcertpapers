@@ -10,6 +10,7 @@ const flash             = require("connect-flash");
 const db        = require('./config/db');
 const passportConfig  = require('./config/passport');
 const routes  	= require('./config/routes'); 
+const job       = require('./config/schedule');
 
 
 app.use(morgan('dev'));

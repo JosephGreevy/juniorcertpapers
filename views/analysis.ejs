@@ -35,20 +35,41 @@
 				<h1>Access Denied</h1>
 				<hr>
 				<h2>You need to login or register to access Exam Paper Analysis</h2>
-				<h4>Exam Paper Analysis is free for the moment so you might as well try it out</h4>
+				<h4>By registering for JC Papers you will receive a 7 Day Free Trial to try out Exam Paper Analysis</h4>
 				<div class="btns">
-					<a routerLink="/subjects">Papers</a>
-					<a routerLink="/registration">SignUp</a>
+					<a href="/subjects">Papers</a>
+					<a href="/registration">SignUp</a>
 				</div>
 			</div>
-		<% } %>
-		<% if(user){ %>
-			<div  class="details">
-				<%- text %>
-			</div> 
-			<ul class="questions">
-				
-			</ul>
+		<% } else if(user.local.verified === false || user.facebook.verified === false){%>
+				<div class="details">
+					<h1>Access Denied</h1>
+					<hr>
+					<h2>You haven't verified your email Address</h2>
+					<h5>In order to access Exam Papers Analysis you must have a verified email address. Click below to resend the verification email</h5>
+					<div class="btns">
+						<a href="/sendemail">Resend Verification Email</a>
+					</div>
+				</div>
+		<% } else { %>
+			<% if(user && (user.local.subscribed === 1 || user.facebook.expires === 1)){ %>
+				<div class="details"> 
+					<h1>Access Denied</h1>
+					<hr>
+					<h2>You need to upgrade to a premium account to access Exam Paper Analysis</h2>
+					<h4>Premium only costs €5 for 5 months and will undoubtedly help you to achieve the results you are looking for</h4>
+					<div class="btns">
+						<a href="/upgrade">Upgrade</a>				
+					</div>
+				</div>
+			<%} else { %>
+				<div  class="details">
+					<%- text %>
+				</div> 
+				<ul class="questions">
+					
+				</ul>
+			<% } %>
 		<% } %>
 
 	</div>

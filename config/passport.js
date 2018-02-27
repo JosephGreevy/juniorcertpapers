@@ -2,6 +2,7 @@ const User           		= require("../models/user");
 const app            		= require("express")();
 const LocalStrategy  		= require("passport-local").Strategy;
 const FacebookStrategy      = require("passport-facebook").Strategy;
+const randomstring          = require("randomstring");
 const bCrypt                = require("bcrypt-nodejs");
 const fbConfig              = require("../config/facebook");
 const transporter           = require("../config/transporter");
@@ -26,7 +27,9 @@ module.exports = function(passport){
 		function(req, username, password, done){
 			User.findOne( { $or : [
 					{ "local.username" : username },
-					{ "local.email"    : req.body.email }
+					{ "local.email"    : req.body.email },
+					{ "facebook.name " : username },
+					{ "facebook.email" : req.body.email }
 					]
 			}, function(err, user){
 				if(err){
@@ -38,11 +41,18 @@ module.exports = function(passport){
 					// TODO: Add Flash Messages
 					return done(null, false, req.flash('error', 'Username or email is already taken'));
 				}else{
+					var expires = new Date();
 					var newUser = new User();
 					newUser.local.username = username;
 					newUser.local.email    = req.body.email;
 					newUser.local.school   = req.body.school;
 					newUser.local.password = createHash(password);
+					newUser.local.created = new Date();
+					newUser.local.subscribed = 0;
+					expires.setDate(expires.getDate() + 7);
+					newUser.local.expires = expires;
+					newUser.local.verified = false;
+					newUser.local.emailToken = randomstring.generate(64);
 					newUser.save(function(err){
 						if(err){
 							console.log("Error saving user", err);	
@@ -50,8 +60,13 @@ module.exports = function(passport){
 						let mailOptions = {
 							from : '"Joseph" <jpgreevy@gmail.com',
 							to : req.body.email,
-							subject : "Successful Registration to JC Papers",
-							html : "Thank you for registering to JC Papers"
+							subject : "Successful Registration to JC Papers and Email Verfication",
+							html : "Thank you for registering for JC Papers. <br>" + 
+							"You have been given a 7 Day Free Trial to try out JC-Papers' premium features i.e exam paper analysis. <br>" +
+							"To get started verify this email address by clicking this link <a href='http://localhost:5000/verify/" +
+							newUser.local.emailToken +"'>Verify Email</a>" +
+							"If you have any questions please do not hesitate to contact me at this email. <br>" +
+							"Kind Regards" 
 						}
 						transporter.sendMail(mailOptions, (error, data) => {
 							if(error){
@@ -106,30 +121,50 @@ module.exports = function(passport){
 			if(user){
 				return cb(null, user, req.flash("success", user.facebook.name + " has successfully logged in."));
 			}else{
-				var newUser = new User();
-				newUser.facebook.id = profile.id;
-				newUser.facebook.token = accessToken;
-				newUser.facebook.name  = profile.displayName;
-				newUser.facebook.email    = profile.emails[0].value;
-				newUser.save(function(err){
-					if(err){
-						console.log(err);
-						throw err;
+				User.findOne( { $or : [
+					{ "local.username" : profile.displayName },
+					{ "local.email"    : profile.emails[0].value }
+					]
+				}, function(err2, user2){
+					if(user){
+						return cb(null, false, req.flash('error', 'User already exists'));
 					}
-					let mailOptions = {
-						from : '"Joseph" <jpgreevy@gmail.com',
-						to : req.body.email,
-						subject : "Successful Registration to JC Papers",
-						html : "Thank you for registering to JC Papers via Facebook"
-					}
-					transporter.sendMail(mailOptions, (error, data) => {
-						if(error){
-							return console.log(error);
+					var newUser = new User();
+					newUser.facebook.id = profile.id;
+					newUser.facebook.token = accessToken;
+					newUser.facebook.name  = profile.displayName;
+					newUser.facebook.email    = profile.emails[0].value;
+					newUser.facebook.created = new Date();
+					newUser.facebook.subscribed = 0;
+					var expires = new Date();
+					expires.setDate(expires.getDate() + 7);
+					newUser.facebook.expires = expires;
+					newUser.facebook.verified = false;
+					newUser.facebook.emailToken = randomstring.generate(64);
+					newUser.save(function(err){
+						if(err){
+							console.log(err);
+							throw err;
 						}
-						console.log("Email was sent");
-					});  
-	                return cb(null, newUser, req.flash("success", newUser.facebook.name + " has successfully registered"));
-				})
+						let mailOptions = {
+							from : '"Joseph" <jpgreevy@gmail.com',
+							to : req.body.email,
+							subject : "Successful Registration to JC Papers",
+							html : "Thank you for registering for JC Papers. <br>" + 
+							"You have been given a 7 Day Free Trial to try out JC-Papers' premium features i.e exam paper analysis." +
+							"If you have any questions please do not hesitate to contact me at this email. <br>" +
+							"Kind Regards" 
+						}
+						transporter.sendMail(mailOptions, (error, data) => {
+							if(error){
+								return console.log(error);
+							}
+							console.log("Email was sent");
+						});  
+		                return cb(null, newUser, req.flash("success", newUser.facebook.name + " has successfully registered"));
+					})
+				});
+				
 
 			}
 		})
