@@ -27,9 +27,11 @@
 							<div class="paper">
 								<a  class="paper-link" href="<%= papersList[x][1]%>" target="_blank"><%= papersList[x][0] %></a>
 							</div>
-							<div class="solutions">
-								<a class="paper-link" href="<%= papersList[x][3]%>" target="_blank">Solutions</a>
-							</div>
+							<% if(papersList[x][3]){ %>
+								<div class="solutions">
+									<a class="paper-link" href="<%= papersList[x][3]%>" target="_blank">Solutions</a>
+								</div>
+							<% } %>
 						</div> 
 					<% } %>
 				<% } %>

@@ -21,48 +21,56 @@
 	<div class="profile-content">
 		<h2>Account Details for <%- (user.local.username || user.facebook.name) %></h2>
 		<hr>
-		<p>Username - <%- (user.local.username || user.facebook.name) %></p>
-
-
-		<p>Email - <%- (user.local.email || user.facebook.email) %></p>
-
-		<p>
-			Verified Email - <% if(user.local.verified || user.facebook.verified) { %>
-								Yes
-							<% }else{ %>
-								No 
-							<% } %>		
-		</p>
-		<% if(user.local.verified || user.facebook.verified) { %>	
-			
-		<% }else {%>
-			<a href="/sendemail">Resend Email</a>
-		<% } %>
-
-
-		<% if(user.local){ %>
-			<p>School - <%= user.local.school %></p>
-		<% } %>
-
-
-		<p>Member Since - <%- formatDate((user.local.created || user.facebook.created)) %></p>
-
-
-		<p>Subscription - 
-			<% if( user.local.subscribed == 2 || user.facebook.subscribed == 2 ){ %>
-				Premium Account
-			<% }else if( user.local.subscribed == 1 || user.facebook.subscribed == 1 ){ %>
-				Basic Account 
-			<% }else if( user.local.subscribed == 0 || user.facebook.subscribed == 0 ){ %>
-				Free Trial
+		<div class="box">
+			<div class="profile-row">
+				<div>Username</div>
+				<div><%- (user.local.username || user.facebook.name) %> </div>
+			</div>
+			<div class="profile-row">
+				<div>Email</div>
+				<div><%- (user.local.email || user.facebook.email) %></div>
+			</div>
+			<div class="profile-row">
+				<div>Verified Email</div>
+				<% if(user.local.verified || user.facebook.verified) { %>
+					<div>Yes</div>
+				<% }else{ %>
+					<div>No</div>
+					<div><a href="/sendemail">Resend Email</a></div> 
+				<% } %>
+			</div>
+			<% if(user.local){ %>	
+				<div class="profile-row">
+					<div>School Name</div>
+					<div><%= user.local.school %></div>
+				</div>
 			<% } %>
-		</p>
-		<% if(user.local.subscribed !== 1 || user.facebook.subscribed !== 1){ %>
-			<p>Expires on <%- formatDate((user.local.expires || user.facebook.expires)) %></p>
-		<% } %>
-		<% if((user.local.subscribed || user.facebook.subscribed) !== 2 ){ %>
-			<a href="/upgrade" class="upgrade">Upgrade to Premium</a>
-		<% } %>
+		
+			<div class="profile-row">
+				<div>Join Date</div>
+				<div><%- formatDate((user.local.created || user.facebook.created)) %></div>
+			</div>
+			
+			<div class="profile-row">
+				<div>Subscription</div>
+				<% if( user.local.subscribed == 2 || user.facebook.subscribed == 2 ){ %>
+					<div>Premium Account</div>
+				<% }else if( user.local.subscribed == 1 || user.facebook.subscribed == 1 ){ %>
+					<div>Basic Account</div>
+					<div><a href="/upgrade" class="upgrade">Upgrade to Premium</a></div>
+				<% }else if( user.local.subscribed == 0 || user.facebook.subscribed == 0 ){ %>
+					<div>Free Trial</div>
+					<div><a href="/upgrade" class="upgrade">Upgrade to Premium</a></div>
+				<% } %>
+			</div>
+			
+			<% if((user.local.subscribed && user.local.subscribed !== 1) || (user.facebook.subscribed && user.facebook.subscribed !== 1)){ %>
+				<div class="profile-row">
+					<div>Expiration Date</div>
+					<div><%- formatDate((user.local.expires || user.facebook.expires)) %></div>
+				</div>
+			<% } %>
+		</div>
 	</div>
 </div>
 <%- include('partials/footer') %>

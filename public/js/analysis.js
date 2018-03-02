@@ -63,7 +63,7 @@ function toggleDisplay(event){
 		}
 	}
 }
-ffunction formatDate(date) {
+function formatDate(date) {
   var monthNames = [
     "January", "February", "March",
     "April", "May", "June", "July",

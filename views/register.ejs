@@ -12,21 +12,22 @@
 			</a>
 			<div class="or">OR</div>
 			<form ngForm action="/register" method="post">
-			    <div class="input-group">
+			    <div class="inputGroup">
 			        <input class="form-input" placeholder="Username" type="text" name="username" id="username"
 			         required minlength="4" maxlength="30" pattern="^[a-zA-Z0-9_.-]*$"/>
 			    </div>
-			    <div class="input-group">
+			    <div class="inputGroup">
 			        <input class="form-input" placeholder="Email" type="email" name="email" id="email" #email="ngModel" 
 			        required ngModel (ngModelChange)="validateEmail($event)" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" />
-			    </div class="input-group">
-			    <div class="input-group">
+			    </div>
+			    <div class="inputGroup">
 			        <input class="form-input" placeholder="School Name" type="school" name="school" id="school" required ngModel/>
 			    </div>
-			    <div class="input-group">
+			    <div class="inputGroup">
 			        <input class="form-input" placeholder="Password" type="password" name="password" id="password" #password="ngModel"
 			        required minlength="5" maxlength="20" ngModel/>
 			    </div>
+			    <div class="inputGroup"><p>By registering you are agreeing to our <a class="privacy" href="/privacypolicy">Privacy Policy</a></p></div>
 			    <div>
 			        <button id="submit" type="submit">
 			        	Register

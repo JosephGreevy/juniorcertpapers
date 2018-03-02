@@ -1,4 +1,4 @@
-var stripe = Stripe('pk_test_UpMYKBOuo7qnMeFXeSmqn0x3');
+var stripe = Stripe('pk_live_6WIWTGsC6tZbUNLB0lx8dGtK');
 function registerElement(elements){
 	console.log(elements);
 	var mainElement = document.querySelector(".billing-element");

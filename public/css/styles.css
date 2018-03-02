@@ -524,9 +524,49 @@ html, body{
 .profile-content h2 {
 	text-align: center;
 }
-.profile-content p{
-	font-size: 1.2em;
-	margin-top: .25em;
+.profile-content .box{
+	width: 100%;
+}
+.profile-content .box .profile-row{
+	border: 1px solid black;
+	border-top: none;
+	display: flex;
+}
+.profile-content .box .profile-row:first-of-type{
+	border-top: 1px solid black;
+}
+.profile-content .box .profile-row div{
+	text-align: center;
+	padding: .5em 0;
+}
+.profile-content .box .profile-row div:nth-child(1){
+	background-color: #d0d0d0;
+	color: rgba(0, 0, 0, .8);
+	flex-basis: 25%;
+	max-width: 25%;
+}
+.profile-content .box .profile-row div:nth-child(2){
+	text-align: left;
+	width: 40%;
+	padding-left: .5em;
+}
+.profile-content .box .profile-row div:nth-child(3){
+	width: 35%;
+	text-align: center;
+}
+.profile-content .box .profile-row div:nth-child(3) a{
+	text-decoration: none;
+	color: rgba(255,255,255,.8);
+	letter-spacing: 0.03em;
+	background-color: #43990F;
+	font-family: Verdana;
+	padding: .3em .75em .3em;
+	text-align: center;
+	border-radius: .28571429rem;
+	font-size: .9em;
+}
+.profile-content .box .profile-row div:nth-child(3) a:hover{
+	background-color: #64ca26;
 }
 @media(min-width: 700px){
 	.profile-content{
@@ -545,9 +585,36 @@ html, body{
 	background-color: #f2f2f2;
 	padding: 2em;
 	border-radius: 1em;
+	width: 80%;
+}
+.upgrade-content h1{
+	text-align: center;
+	color: #232121;
+}
+.upgrade-content h2{
+	text-align: center;
+	margin-top: .3em;
+	color: black;
+}
+.upgrade-content h2 span{
+	font-weight: bold;
+}
+
+.upgrade-content hr {
+	width: 80%;
+	margin: .5em 0 1.5em 10%;
+}
+.upgrade-content .exp{
+	text-align: center;
+	font-size: 1.5em;
+}
+.upgrade-content .desc{
+	padding: 0 2em;
+	font-family: sans-serif;
+	font-size: 16px;
 }
 .billing-element {
-	margin: 2em;
+	margin: .5em 2em 2em 2em;
    background-color: #f2f2f2;
 }
 .billing-element form{
@@ -753,6 +820,11 @@ html, body{
 	opacity: 1;
   	transform: none;
 }
+@media(min-width: 600px){
+	.upgrade-content{
+		width: 60%;
+	}
+}
 /****** analysis.ejs *************/
 .details h1{
 	font-size: 1.75em;
@@ -912,6 +984,14 @@ div.form-title{
 .forms{
 	padding: 0 1.5em;
 }
+div.inputGroup p{
+	margin-top:10px;
+	font-size: 11px;
+}
+.privacy{
+	text-decoration: none;
+	font-weight: bold;
+}
 div.or{
 	text-align: center;
 	font-size: 1.5em;
@@ -959,7 +1039,7 @@ input{
 	outline: none;
 }
 button#submit{
-	margin-top: 1em;
+	margin-top: .5em;
 	font-size: 22px;
 	padding: 7px 0;
 	border: 1px solid black;

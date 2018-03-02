@@ -61,12 +61,44 @@ module.exports = function(passport){
 							from : '"Joseph" <jpgreevy@gmail.com',
 							to : req.body.email,
 							subject : "Successful Registration to JC Papers and Email Verfication",
-							html : "Thank you for registering for JC Papers. <br>" + 
-							"You have been given a 7 Day Free Trial to try out JC-Papers' premium features i.e exam paper analysis. <br>" +
-							"To get started verify this email address by clicking this link <a href='http://localhost:5000/verify/" +
-							newUser.local.emailToken +"'>Verify Email</a>" +
-							"If you have any questions please do not hesitate to contact me at this email. <br>" +
-							"Kind Regards" 
+							html :  "<h1 style='margin-bottom: 0'>" +
+										"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+										"line-height: 30px; display: block;'>" +
+											"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+											"JC Papers" +
+										"</a>" +
+									"</h1>" +
+									"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+									"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Hi " + newUser.local.username + "," + 
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Thank you for registering for JC Papers. You have been give a 7 Day Free Trial to try out " +
+											" JC-Papers' premium features i.e exam paper analysis." +
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Please click the button below to verify your email address and activate your account." + 
+										"</p>" +
+										"<a href='https://juniorcertpapers.ie/verify/" + newUser.local.emailToken + "'" +
+										"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
+										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none;" +
+								 		"'>Verify Email</a>" +
+										"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+											"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Kind Regards," +
+										"</p>" +
+										"<p>" +
+											"	JC Papers" +
+										"</p>" +
+									"</div>",
+							attachments: [{
+						        filename: 'logo-32.png',
+						        path: 'public/images/logo-32.png',
+						        cid: 'logo32-jcpapers' //same cid value as in the html img src
+					    	}]
 						}
 						transporter.sendMail(mailOptions, (error, data) => {
 							if(error){
@@ -148,12 +180,47 @@ module.exports = function(passport){
 						}
 						let mailOptions = {
 							from : '"Joseph" <jpgreevy@gmail.com',
-							to : req.body.email,
-							subject : "Successful Registration to JC Papers",
-							html : "Thank you for registering for JC Papers. <br>" + 
-							"You have been given a 7 Day Free Trial to try out JC-Papers' premium features i.e exam paper analysis." +
-							"If you have any questions please do not hesitate to contact me at this email. <br>" +
-							"Kind Regards" 
+							to : newUser.facebook.email,
+							subject : "Successful Registration to JC Papers and Email Verification",
+							html :  "<h1 style='margin-bottom: 0'>" +
+										"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+										"line-height: 30px; display: block;'>" +
+											"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+											"JC Papers" +
+										"</a>" +
+									"</h1>" +
+									"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+									"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Hi " + newUser.facebook.name + "," + 
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Thank you for registering for JC Papers. You have been give a 7 Day Free Trial to try out " +
+											" JC-Papers' premium features i.e exam paper analysis." +
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Please click the button below to verify your email address and activate your account." + 
+										"</p>" +
+										"<a href='https://juniorcertpapers.ie/verify/" + newUser.facebook.emailToken + "'" +
+										"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
+										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none;" +
+								 		"'>Verify Email</a>" +
+										"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+											"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
+										"</p>" +
+										"<p style='margin-bottom: 1.75em'>" +
+											"Kind Regards," +
+										"</p>" +
+										"<p>" +
+											"	JC Papers" +
+										"</p>" +
+									"</div>",
+							attachments: [{
+						        filename: 'logo-32.png',
+						        path: 'public/images/logo-32.png',
+						        cid: 'logo32-jcpapers' //same cid value as in the html img src
+					    	}]
+
 						}
 						transporter.sendMail(mailOptions, (error, data) => {
 							if(error){

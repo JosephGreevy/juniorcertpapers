@@ -2,7 +2,7 @@ const express       = require("express");
 const app           = express();
 const router        = express.Router();
 const passport      = require("passport");
-const stripe        = require("stripe")("sk_test_wjdasnUAO3hAL20gLI91gypi");
+const stripe        = require("stripe")("sk_live_RrSvq8JAWWctQN0LWBNk3n2v");
 
 const papers        = require("../public/data/papers.json");
 const analysis      = require("../public/data/analysis.json");
@@ -110,13 +110,14 @@ router.post("/pay", (req, res) => {
 	var token = req.body.stripeToken;
 	console.log(token);
 	stripe.charges.create({
-		amount: 999,
+		amount: 500,
 		currency: "eur",
-		description: "Example charge",
+		description: "5 Months JC Papers Premium",
 		source: token,
 	}, function(err, charge) {
 		console.log(charge);
 		console.log(req.user.local.username || req.user.facebook.name);
+		let email = req.user.local.email || req.user.facebook.email;
 		
 		if(req.user.local){
 			if(req.user.local.expires === null){
@@ -136,7 +137,52 @@ router.post("/pay", (req, res) => {
 					console.log(err);
 					res.redirect("/about");
 				}else{
+					let name = req.user.local.username;
+					let mailOptions = {
+						from : '"Joseph" <jpgreevy@gmail.com',
+						to : email,
+						subject : "JC Papers Upgrade Confirmation",
+						html :  "<h1 style='margin-bottom: 0'>" +
+									"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+									"line-height: 30px; display: block;'>" +
+										"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+										"JC Papers" +
+									"</a>" +
+								"</h1>" +
+								"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+								"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"Hi " + name + ", <br>" + 
+									"</p>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"This is confirmation that you paid €5 to upgrade to premium." +
+									"</p>" +
+									"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+										"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
+									"</p>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"Kind Regards," +
+									"</p>" +
+									"<p>" +
+										"	JC Papers" +
+									"</p>" +
+								"</div>",
+						attachments: [{
+					        filename: 'logo-32.png',
+					        path: 'public/images/logo-32.png',
+					        cid: 'logo32-jcpapers' //same cid value as in the html img src
+				    	}]
+					}
+					transporter.sendMail(mailOptions, (error, data) => {
+						if(error){
+							res.redirect("/profile");
+							return console.log(error);
+
+						}
+						console.log("Email was sent");
+					});
 					console.log(updatedUser);
+					req.flash('success', 'You successully upgraded to premium')
 					res.redirect("/profile");
 				}
 			});
@@ -158,11 +204,56 @@ router.post("/pay", (req, res) => {
 					console.log(err);
 					res.redirect("/about");
 				}else{
+					let mailOptions = {
+						from : '"Joseph" <jpgreevy@gmail.com',
+						to : email,
+						subject : "JC Papers Upgrade Confirmation",
+						html :  "<h1 style='margin-bottom: 0'>" +
+									"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+									"line-height: 30px; display: block;'>" +
+										"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+										"JC Papers" +
+									"</a>" +
+								"</h1>" +
+								"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+								"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"Hi " + name + ", <br>" + 
+									"</p>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"This is confirmation that you paid €5 to upgrade to premium." +
+									"</p>" +
+									"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+										"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
+									"</p>" +
+									"<p style='margin-bottom: 1.75em'>" +
+										"Kind Regards," +
+									"</p>" +
+									"<p>" +
+										"	JC Papers" +
+									"</p>" +
+								"</div>",
+						attachments: [{
+					        filename: 'logo-32.png',
+					        path: 'public/images/logo-32.png',
+					        cid: 'logo32-jcpapers' //same cid value as in the html img src
+				    	}]
+					}
+					transporter.sendMail(mailOptions, (error, data) => {
+						if(error){
+							res.redirect("/profile");
+							return console.log(error);
+
+						}
+						console.log("Email was sent");
+					});
 					console.log(updatedUser);
+					req.flash('success', 'You successully upgraded to premium')
 					res.redirect("/profile");
 				}
 			});
 		}
+
 		
 	});
 });
@@ -215,14 +306,45 @@ router.get('/verify/:token', (req, res) => {
 router.get("/sendemail", isAuthenticated, notVerified, (req, res) => {
 	let email = req.user.local.email || req.user.facebook.email;
 	let token = req.user.local.emailToken || req.user.facebook.emailToken;
+	let name  = req.user.local.username || req.user.facebook.name;
 	let mailOptions = {
 		from : '"Joseph" <jpgreevy@gmail.com',
 		to : email,
-		subject : "JC Papers Email Verification",
-		html : "Click on <a href='http://localhost:5000/verify/" +
-		token +"'>this</a> link in order to verify your email address." +
-		"If you have any questions please do not hesitate to contact us at this email or our facebook page. <br>" +
-		"Kind Regards" 
+		subject : "JC Papers Email Address Verification",
+		html :  "<h1 style='margin-bottom: 0'>" +
+					"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+					"line-height: 30px; display: block;'>" +
+						"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+						"JC Papers" +
+					"</a>" +
+				"</h1>" +
+				"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+				"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Hi " + name + ", <br>" + 
+					"</p>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Please click the button below to confirm your email address." +
+					"</p>" +
+					"<a href='https://juniorcertpapers.ie/verify/" + token + "'" +
+					"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
+					"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none;" +
+			 		"'>Verify Email</a>" +
+					"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+						"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
+					"</p>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Kind Regards," +
+					"</p>" +
+					"<p>" +
+						"	JC Papers" +
+					"</p>" +
+				"</div>",
+		attachments: [{
+	        filename: 'logo-32.png',
+	        path: 'public/images/logo-32.png',
+	        cid: 'logo32-jcpapers' //same cid value as in the html img src
+    	}]
 	}
 	transporter.sendMail(mailOptions, (error, data) => {
 		if(error){
@@ -247,6 +369,9 @@ router.get('/auth/facebook/callback',
 router.get("/notfound", (req, res) => {
 	res.render("notfound");
 })
+router.get("/privacypolicy", function(req, res){
+	res.render("privacypolicy");
+});
 
 router.get("*", (req, res) => {
 	res.redirect("/notfound");

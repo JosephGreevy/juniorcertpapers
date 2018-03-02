@@ -3,6 +3,9 @@
 <%- include('partials/filter') %>
 <div class="upgrade-container">
 	<div class="upgrade-content">
+		<h1>€5 / 5 Months</h1>
+		<div class="exp">Unlimited access to Exam Papers Analysis.</div> 
+		<hr>
 		<% if( user.local.subscribed == 2 || user.facebook.subscribed == 2 ){ %>
 			<div class="desc">
 				You have already paid for a JC Papers premium account. Your subscription will expire on 
@@ -19,8 +22,11 @@
 				<div class="desc">By upgrading below, you will receive a 5 month subscription to JC Papers Premium for only €5. This premium account will allow you to access premium features such as the exam paper and aural analysis sections of the site. Our payment process is powered by Stripe and is 100% secure. If you have any questions,
 				please do not hesitate to contact us at jpgreevy@gmail.com or our facebook page.</div>
 			<% }else if( user.local.subscribed == 0 || user.facebook.subscribed == 0 ){ %>
-				<div class="desc">We hope you are enjoying your free trial with JC Papers. Below, you can purchase a 5 month subscription to JC Papers Premium for only €5. These 5 months will be added onto the end of your current free trial.  Our payment process is powered by Stripe and is 100% secure. If you have any questions,
-				please do not hesitate to contact us at jpgreevy@gmail.com or our facebook page.</div>
+				
+				<div class="desc">
+					<p> Our payment process is powered by Stripe and is 100% secure.</p>
+					<p>If you have any questions, please do not hesitate to contact us at jpgreevy@gmail.com or our facebook page.</p>
+				</div>
 			<% } %>
 		
 			<div class="billing-element">
