@@ -269,7 +269,7 @@ router.get('/verify/:token', (req, res) => {
 		}else if(user){
 			console.log(user);
 			
-			if(isAuthenticated){
+			if(req.isAuthenticated()){
 				req.logout();
 			}
 			req.flash('success', 'Email was successfully verified');
@@ -284,17 +284,17 @@ router.get('/verify/:token', (req, res) => {
 					console.log("Error verifying facebook user " + err);
 				}else if(user){
 					console.log(user);
-					req.flash("success", "Email was successfully verified");
-					if(isAuthenticated){
+					if(req.isAuthenticated()){
 						req.logout();
 					}
+					req.flash('success', 'Email was successfully verified');
 					res.redirect("/login");
 				}else{
 					console.log("User does not exist on facebook");
 				}
 			});
 			req.flash('error', 'Email Verfiication unsuccessful. That token was not associated with any account');
-			if(isAuthenticated){
+			if(req.isAuthenticated){
 				req.logout();
 			}
 			res.redirect('/login');

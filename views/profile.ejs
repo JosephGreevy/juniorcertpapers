@@ -64,7 +64,7 @@
 				<% } %>
 			</div>
 			
-			<% if((user.local.subscribed && user.local.subscribed !== 1) || (user.facebook.subscribed && user.facebook.subscribed !== 1)){ %>
+			<% if((user.local.subscribed !== 1) || (user.facebook.subscribed !== 1)){ %>
 				<div class="profile-row">
 					<div>Expiration Date</div>
 					<div><%- formatDate((user.local.expires || user.facebook.expires)) %></div>
