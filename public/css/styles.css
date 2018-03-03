@@ -826,15 +826,63 @@ html, body{
 	}
 }
 /****** analysis.ejs *************/
+.analysis-row{
+	display: flex;
+}
+.analysis-row div{
+	flex: 1;
+	font-size: 16px;
+	text-align: center;
+	padding: 10px 0;
+	border-right: 1px solid black;
+}
+.analysis-row div:last-child{
+	border-right: none;
+}
+.analysis-content{
+	width: 80%;
+	margin-left: 10%;
+}
+.analysis-content h2{
+	text-align: left;
+	font-size: 1.75em;
+	margin: 20px 0 10px 0;
+}
+.analysis-content h3{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 10px 0 0 0;
+}
+.analysis-content .main-desc{
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 15px;
+	color: #191818;
+}
+.analysis-content .category-desc p{
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 5px;
+	color: #191818;
+}
+.analysis-content .category-desc p:last-child:not(:first-child){
+	margin-left: 30px;
+	margin-bottom: 15px;
+	font-family: Serif;
+}
+.analysis-content .category-desc p strong{
+	font-weight: 800;
+	letter-spacing: .03em;
+	font-family: sans-serif;
+}
 .details h1{
 	font-size: 1.75em;
 	
 }
-.details h2{
-	text-align: center;
+.details > h2{
 	color: #202020;
-	margin-bottom: .2em;
-	font-size: 1.25em;
+	margin-bottom: .4em;
+	font-size: 1.5em;
 }
 .invisible{
 	display: none;
@@ -888,11 +936,17 @@ html, body{
 	cursor: pointer;
 	align-self: center;
 }
-.details hr{
+.details hr:not(.sub){
 	height: 3px;
 	background-color: #202020;
 	width: 80%;
 	margin: .5em 0 1em 10%;
+}
+hr.sub{
+	height: 1px;
+	background-color: #202020;
+	width: 60%;
+	margin: .2em 0 1em 20%;
 }
 .details .btns{
 	margin-top: 20px;

@@ -1,6 +1,6 @@
 {
   "maths": {
-    "text": "There are 2 maths papers",
+    "text": "partials/maths",
     "categories": ["Numbers",  "Algebra, Quadratics and Factorisation", "Applied Arithmetic", "Trigonometry",
                    "Functions", "Sets", "Sequences", "Probability and Statistics", "Area and Volume", "Co-ordinate Geometry", "Geometry"],
     "hl": [
@@ -1087,7 +1087,7 @@
     ]
   },
   "irish" : {
-    "text" : "<h1>Irish Analysis</h1> <hr> <p>Irish Analysis is grouped by type of question as opposed to topic. It is really useful for studying the reading and listening comprehension sections of the exam. The marking schemes are not very helpful for the composition sections of the exam. We hope to add sample answers and guides in the future to help with this.</p> <h2>Paper 1</h2>",
+    "text" : "partials/irish",
     "categories" : ["Cluastuiscint Cuid A", "Cluastuiscint Cuid B", "Cluastuiscint Cuid C", "Léamhthuiscint", "Gramadach", 
                     "Ceapadóireacht", "Unseen Prose", "Studied Prose", "Unseen Poetry", "Studied Poetry", "Litir"],
     "hl": [
@@ -1754,8 +1754,8 @@
     ]
   },
   "english" : {
-    "text" : "<h1>English Analysis</h1> <hr> <p>English Analysis is coming soon</p>",
-    "categories" : ["Reading Comprehension", "Studied Novel", "Unseen Poetry", "Studied Poetry", "Unseen Drama", "Studied Drama", "Grammar",
+    "text" : "partials/english",
+    "categories" : ["Composition", "Reading Comprehension", "Studied Novel", "Unseen Poetry", "Studied Poetry", "Unseen Drama", "Studied Drama", "Grammar",
                      "Media Studies", "Funtional Writing"],
     "hl": [
       {
@@ -1802,8 +1802,8 @@
         "year" : 2017,
         "name" : "2017 - Q7 + Q8 - Studied Drama",
         "tags" : ["Studied Drama"],
-        "src": "/ActualPapers/English/hl/screenshots/2017-Q7+Q8.png",
-        "ms": "/ActualPapers/English/hl/screenshots/2017-Q7+Q8-MS.png",
+        "src": "/ActualPapers/English/hl/screenshots/2017-Q7+8.png",
+        "ms": "/ActualPapers/English/hl/screenshots/2017-Q7+8-MS.png",
         "diffuculty" : 1
       },
       {
@@ -1816,10 +1816,10 @@
       },
       {
         "year" : 2017,
-        "name" : "2017 - Q1 - Script Writing",
+        "name" : "2017 - Q10 - Script Writing",
         "tags" : ["Composition"],
-        "src": "/ActualPapers/English/hl/screenshots/2017-Q1.png",
-        "ms": "/ActualPapers/English/hl/screenshots/2017-Q1-MS.png",
+        "src": "/ActualPapers/English/hl/screenshots/2017-Q10.png",
+        "ms": "/ActualPapers/English/hl/screenshots/2017-Q10-MS.png",
         "diffuculty" : 1
       },
       {
@@ -1937,7 +1937,7 @@
     ]
   },
   "geography" : {
-    "text" : "<h1>Geography Analysis</h1> <hr> <p>Geography Analysis is coming soon</p>",
+    "text" : "partials/geography",
     "categories" : ["Structure of the Earth", "Rocks", "Weathering and Erosion", "Rivers", "Glaciation", "The Sea", "Weather and Climate", 
       "Soils", "Economic Activities", "Economic Inequality", "Population", "Settlement", "Maps and Aerial Photos"],
     "hl": [
@@ -2287,15 +2287,15 @@
       },
       {
         "year" : 2016,
-        "name" : "2016 - Short Questions - Q16 - Settlement",
-        "tags" : ["Settlement"],
+        "name" : "2016 - Short Questions - Q16 - Rainfall ",
+        "tags" : ["Weather and Climate"],
         "src": "/ActualPapers/Geography/hl/screenshots/2016-P1-Q16.png",
         "ms": "/ActualPapers/Geography/hl/screenshots/2016-P1-Q16-MS.png"
       },
       {
         "year" : 2016,
-        "name" : "2016 - Short Questions - Q17 - Rainfall",
-        "tags" : ["Weather and Climate"],
+        "name" : "2016 - Short Questions - Q17 - Map",
+        "tags" : ["Maps and Aerial Photo"],
         "src": "/ActualPapers/Geography/hl/screenshots/2016-P1-Q17.png",
         "ms": "/ActualPapers/Geography/hl/screenshots/2016-P1-Q17-MS.png"
       },
@@ -3073,27 +3073,27 @@
     ]
   },
   "french" : {
-    "text" : "<h1>French Analysis</h1> <hr> <p>French Analysis is coming soon</p>",
+    "text" : "partials/french",
     "categories" : []
   },
   "spanish" : {
-    "text" : "<h1>Spanish Analysis</h1> <hr> <p>Spanish Analysis is coming soon</p>",
+    "text" : "partials/spanish",
     "categories" : []
   },
   "german" : {
-    "text" : "<h1>German Analysis</h1> <hr> <p>German Analysis is coming soon</p>",
+    "text" : "partials/german",
     "categories" : []
   },
   "religion" : {
-    "text" : "<h1>Religion Analysis</h1> <hr> <p>Religion Analysis is coming soon</p>",
+    "text" : "partials/religion",
     "categories" : []
   },
   "cspe" : {
-    "text" : "<h1>CSPE Analysis</h1> <hr> <p>CSPE Analysis is coming soon</p>",
+    "text" : "partials/cspe",
     "categories" : []
   },
   "history" : {
-    "text" : "<h1>History Analysis</h1> <hr> <p>Here, the last 5 years of Higher Level History papers are divided into their separated categories.</p> <ul><li>Archaeologist <ul><li>Historian</li><li>Archaeologist</li></ul></li></ul",
+    "text" : "partials/history",
     "categories" : ["Archaeologist", "Ancient Ireland", "Ancient Rome", "The Middle Ages", "The Renaissance", "Age of Explorations",
                     "Reformation", "The Plantations", "Revolutions", "Industrial Revolution", "International Relations 20th Century",
                     "20th Century Ireland", "Social Development 20th Century"],
@@ -4621,11 +4621,13 @@
     ]
   },
   "business":{
-    "text": "<h1>Choosing the right category</h1> <h2>Paper 1</h2> <h3>Question 1</h3> Household Budgets <h3>Question 2</h3> Club Accounts <h3>Question 2</h3> Economics <h3>Question 4</h3>",
-    "categories": ["Household Budgets", "Club Accounts", "Economics", "Insurance", "Consumer", "Report Writing", "Banking",
-                   "People at Work", "Technology", "Ledgers", "Business Documents", "Marketing", "Cost of Delivery", "Business Plan",
-                   "Cash Flow Forecast", "Types of Business", "Analysed Cash Book", "Final Accounts", "Ratio Analysis", 
-                   "Industrial Relations", "Chain of Production", "Business Finance"],
+    "text": "partials/business",
+    "categories": ["Household Budgets", "Club Accounts", "Economics", "Insurance", "Consumer", "Banking",
+                   "People at Work", "Technology", "Ledgers", "Business Documents", "Final Accounts", "Marketing", "Types of Business",
+                   "Industrial Relations", 
+                   "Cost of Delivery", "Business Plan",
+                   "Cash Flow Forecast", "Analysed Cash Book", "Ratio Analysis", 
+                   "Chain of Production", "Business Finance"],
     "hl":[
       {
         "year": 2017,
@@ -5110,7 +5112,7 @@
     ] 
   },
   "science" : {
-    "text" : "Science",
+    "text" : "partials/science",
     "categories" : ["Living Things", "The Cell", "Food and Digestive System", "Respiration", "The Breathing System", "The Circulatory System", 
       "Skeletal and Muscular System", "The Reproductive System",
      "Sensory System", "The Excretory System", "Plants", "Habitat Study and Ecology", "Microbiology", "Elements, Compounds and Mixtures",
