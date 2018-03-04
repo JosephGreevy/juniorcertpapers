@@ -1097,7 +1097,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q1-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q1-A-MS.png",
-        "audio": "/audio/2017-Q1-A.mp3"
+        "audio": "/audio/irish/2017-Q1-A.mp3"
       },
       {
         "year" : "2017",
@@ -1105,7 +1105,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q1-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q1-B-MS.png",
-        "audio": "/audio/2017-Q1-B.mp3"
+        "audio": "/audio/irish/2017-Q1-B.mp3"
       },
       {
         "year" : "2017",
@@ -1113,7 +1113,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q2-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q2-A-MS.png",
-        "audio": "/audio/2017-Q2-A.mp3"
+        "audio": "/audio/irish/2017-Q2-A.mp3"
       },
       {
         "year" : "2017",
@@ -1121,7 +1121,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q2-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q2-B-MS.png",
-        "audio": "/audio/2017-Q2-B.mp3"
+        "audio": "/audio/irish/2017-Q2-B.mp3"
       },
       {
         "year" : "2017",
@@ -1129,7 +1129,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q3-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q3-A-MS.png",
-        "audio": "/audio/2017-Q3-A.mp3"
+        "audio": "/audio/irish/2017-Q3-A.mp3"
       },
       {
         "year" : "2017",
@@ -1137,7 +1137,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q3-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2017-P1-Q3-B-MS.png",
-        "audio": "/audio/2017-Q3-B.mp3"
+        "audio": "/audio/irish/2017-Q3-B.mp3"
       },
       {
         "year" : "2017",
@@ -1229,7 +1229,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q1-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q1-A-MS.png",
-        "audio": "/audio/2016-Q1-A.mp3"
+        "audio": "/audio/irish/2016-Q1-A.mp3"
       },
       {
         "year" : "2016",
@@ -1237,7 +1237,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q1-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q1-B-MS.png",
-        "audio": "/audio/2016-Q1-B.mp3"
+        "audio": "/audio/irish/2016-Q1-B.mp3"
       },
       {
         "year" : "2016",
@@ -1245,7 +1245,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q2-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q2-A-MS.png",
-        "audio": "/audio/2016-Q2-A.mp3"
+        "audio": "/audio/irish/2016-Q2-A.mp3"
       },
       {
         "year" : "2016",
@@ -1253,7 +1253,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q2-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q2-B-MS.png",
-        "audio": "/audio/2016-Q2-B.mp3"
+        "audio": "/audio/irish/2016-Q2-B.mp3"
       },
       {
         "year" : "2016",
@@ -1261,7 +1261,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q3-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q3-A-MS.png",
-        "audio": "/audio/2016-Q3-A.mp3"
+        "audio": "/audio/irish/2016-Q3-A.mp3"
       },
       {
         "year" : "2016",
@@ -1269,7 +1269,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q3-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2016-P1-Q3-B-MS.png",
-        "audio": "/audio/2016-Q3-B.mp3"
+        "audio": "/audio/irish/2016-Q3-B.mp3"
       },
       {
         "year" : "2016",
@@ -1361,7 +1361,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q1-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q1-A-MS.png",
-        "audio": "/audio/2015-Q1-A.mp3"
+        "audio": "/audio/irish/2015-Q1-A.mp3"
       },
       {
         "year" : "2015",
@@ -1369,7 +1369,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q1-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q1-B-MS.png",
-        "audio": "/audio/2015-Q1-B.mp3"
+        "audio": "/audio/irish/2015-Q1-B.mp3"
       },
       {
         "year" : "2015",
@@ -1377,7 +1377,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q2-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q2-A-MS.png",
-        "audio": "/audio/2015-Q2-A.mp3"
+        "audio": "/audio/irish/2015-Q2-A.mp3"
       },
       {
         "year" : "2015",
@@ -1385,7 +1385,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q2-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q2-B-MS.png",
-        "audio": "/audio/2015-Q2-B.mp3"
+        "audio": "/audio/irish/2015-Q2-B.mp3"
       },
       {
         "year" : "2015",
@@ -1393,7 +1393,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q3-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q3-A-MS.png",
-        "audio": "/audio/2015-Q3-A.mp3"
+        "audio": "/audio/irish/2015-Q3-A.mp3"
       },
       {
         "year" : "2015",
@@ -1401,7 +1401,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q3-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2015-P1-Q3-B-MS.png",
-        "audio": "/audio/2015-Q3-B.mp3"
+        "audio": "/audio/irish/2015-Q3-B.mp3"
       },
       {
         "year" : "2015",
@@ -1493,7 +1493,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q1-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q1-A-MS.png",
-        "audio": "/audio/2014-Q1-A.mp3"
+        "audio": "/audio/irish/2014-Q1-A.mp3"
       },
       {
         "year" : "2014",
@@ -1501,7 +1501,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q1-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q1-B-MS.png",
-        "audio": "/audio/2014-Q1-B.mp3"
+        "audio": "/audio/irish/2014-Q1-B.mp3"
       },
       {
         "year" : "2014",
@@ -1509,7 +1509,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q2-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q2-A-MS.png",
-        "audio": "/audio/2014-Q2-A.mp3"
+        "audio": "/audio/irish/2014-Q2-A.mp3"
       },
       {
         "year" : "2014",
@@ -1517,7 +1517,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q2-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q2-B-MS.png",
-        "audio": "/audio/2014-Q2-B.mp3"
+        "audio": "/audio/irish/2014-Q2-B.mp3"
       },
       {
         "year" : "2014",
@@ -1525,7 +1525,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q3-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q3-A-MS.png",
-        "audio": "/audio/2014-Q3-A.mp3"
+        "audio": "/audio/irish/2014-Q3-A.mp3"
       },
       {
         "year" : "2014",
@@ -1533,7 +1533,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q3-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2014-P1-Q3-B-MS.png",
-        "audio": "/audio/2014-Q3-B.mp3"
+        "audio": "/audio/irish/2014-Q3-B.mp3"
       },
       {
         "year" : "2014",
@@ -1625,7 +1625,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q1-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q1-A-MS.png",
-        "audio": "/audio/2013-Q1-A.mp3"
+        "audio": "/audio/irish/2013-Q1-A.mp3"
       },
       {
         "year" : "2013",
@@ -1633,7 +1633,7 @@
         "tags" : ["Cluastuiscint Cuid A"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q1-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q1-B-MS.png",
-        "audio": "/audio/2013-Q1-B.mp3"
+        "audio": "/audio/irish/2013-Q1-B.mp3"
       },
       {
         "year" : "2013",
@@ -1641,7 +1641,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q2-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q2-A-MS.png",
-        "audio": "/audio/2013-Q2-A.mp3"
+        "audio": "/audio/irish/2013-Q2-A.mp3"
       },
       {
         "year" : "2013",
@@ -1649,7 +1649,7 @@
         "tags" : ["Cluastuiscint Cuid B"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q2-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q2-B-MS.png",
-        "audio": "/audio/2013-Q2-B.mp3"
+        "audio": "/audio/irish/2013-Q2-B.mp3"
       },
       {
         "year" : "2013",
@@ -1657,7 +1657,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q3-A.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q3-A-MS.png",
-        "audio": "/audio/2013-Q3-A.mp3"
+        "audio": "/audio/irish/2013-Q3-A.mp3"
       },
       {
         "year" : "2013",
@@ -1665,7 +1665,7 @@
         "tags" : ["Cluastuiscint Cuid C"],
         "src"  : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q3-B.png",
         "ms"   : "/ActualPapers/Irish/hl/screenshots/2013-P1-Q3-B-MS.png",
-        "audio": "/audio/2013-Q3-B.mp3"
+        "audio": "/audio/irish/2013-Q3-B.mp3"
       },
       {
         "year" : "2013",
@@ -3076,13 +3076,1111 @@
     "text" : "partials/french",
     "categories" : []
   },
-  "spanish" : {
-    "text" : "partials/spanish",
-    "categories" : []
-  },
   "german" : {
     "text" : "partials/german",
     "categories" : []
+  },
+  "spanish" : {
+    "text" : "partials/spanish",
+    "categories" : ["A. Diálogos", "B. Anuncios", "C. Noticia", "D. Descriptivo", "Translations", "Small Reading Comprehensions",
+                    "Long Reading Comprehensions", "Numbers", "Sentences", "Letter"],
+    "hl" : [
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - A. Diálogos - Q1",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q1-MS.png",
+        "audio": "/audio/spanish/2017-1.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - A. Diálogos - Q2",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q2-MS.png",
+        "audio": "/audio/spanish/2017-2.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - A. Diálogos - Q3",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q3-MS.png",
+        "audio": "/audio/spanish/2017-3.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - A. Diálogos - Q4",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q4-MS.png",
+        "audio": "/audio/spanish/2017-4.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Anuncios - Q5",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q5-MS.png",
+        "audio": "/audio/spanish/2017-5.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Anuncios - Q6",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q6-MS.png",
+        "audio": "/audio/spanish/2017-6.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Anuncios - Q7",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q7-MS.png",
+        "audio": "/audio/spanish/2017-7.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Anuncios - Q8",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q8-MS.png",
+        "audio": "/audio/spanish/2017-8.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Una Noticia - Q9",
+        "tags" : ["C. Noticia"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q9-MS.png",
+        "audio": "/audio/spanish/2017-9.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - D. Descriptivo - Q10",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q10-MS.png",
+        "audio": "/audio/spanish/2017-10.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - D.Descriptivo - Q11",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P1-Q11-MS.png",
+        "audio": "/audio/spanish/2017-11.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Translations - Q1",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Translations - Q2",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/P2-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q3",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q4",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q4-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q5",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q6",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q6-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Guidelines - Q7",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q7-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q8",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q8-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Small Reading Comprehension - Q9",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q9-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Long Reading Comprehension - Q10",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q10-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Long Reading Comprehension - Q11",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q11-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Comprehension - Long Reading Comprehension - Q12",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q12.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P2-Q12-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Written Section - Numbers",
+        "tags" : ["Numbers"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Written Section - Sentences",
+        "tags" : ["Sentences"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Written Section - Letter",
+        "tags" : ["Letter"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2017-P3-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - A. Diálogos - Q1",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q1-MS.png",
+        "audio": "/audio/spanish/2016-1.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - A. Diálogos - Q2",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q2-MS.png",
+        "audio": "/audio/spanish/2016-2.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - A. Diálogos - Q3",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q3-MS.png",
+        "audio": "/audio/spanish/2016-3.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - A. Diálogos - Q4",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q4-MS.png",
+        "audio": "/audio/spanish/2016-4.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Anuncios - Q5",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q5-MS.png",
+        "audio": "/audio/spanish/2016-5.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Anuncios - Q6",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q6-MS.png",
+        "audio": "/audio/spanish/2016-6.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Anuncios - Q7",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q7-MS.png",
+        "audio": "/audio/spanish/2016-7.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Anuncios - Q8",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q8-MS.png",
+        "audio": "/audio/spanish/2016-8.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Una Noticia - Q9",
+        "tags" : ["C. Noticia"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q9-MS.png",
+        "audio": "/audio/spanish/2016-9.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - D. Descriptivo - Q10",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q10-MS.png",
+        "audio": "/audio/spanish/2016-10.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - D.Descriptivo - Q11",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P1-Q11-MS.png",
+        "audio": "/audio/spanish/2016-11.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Translations - Q1",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Translations - Q2",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/P2-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q3",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q4",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q4-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q5",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q6",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q6-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Guidelines - Q7",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q7-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q8",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q8-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Small Reading Comprehension - Q9",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q9-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Long Reading Comprehension - Q10",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q10-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Long Reading Comprehension - Q11",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q11-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Comprehension - Long Reading Comprehension - Q12",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q12.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P2-Q12-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Written Section - Numbers",
+        "tags" : ["Numbers"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Written Section - Sentences",
+        "tags" : ["Sentences"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Written Section - Letter",
+        "tags" : ["Letter"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2016-P3-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - A. Diálogos - Q1",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q1-MS.png",
+        "audio": "/audio/spanish/2015-1.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - A. Diálogos - Q2",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q2-MS.png",
+        "audio": "/audio/spanish/2015-2.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - A. Diálogos - Q3",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q3-MS.png",
+        "audio": "/audio/spanish/2015-3.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - A. Diálogos - Q4",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q4-MS.png",
+        "audio": "/audio/spanish/2015-4.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Anuncios - Q5",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q5-MS.png",
+        "audio": "/audio/spanish/2015-5.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Anuncios - Q6",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q6-MS.png",
+        "audio": "/audio/spanish/2015-6.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Anuncios - Q7",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q7-MS.png",
+        "audio": "/audio/spanish/2015-7.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Anuncios - Q8",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q8-MS.png",
+        "audio": "/audio/spanish/2015-8.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Una Noticia - Q9",
+        "tags" : ["C. Noticia"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q9-MS.png",
+        "audio": "/audio/spanish/2015-9.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - D. Descriptivo - Q10",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q10-MS.png",
+        "audio": "/audio/spanish/2015-10.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - D.Descriptivo - Q11",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P1-Q11-MS.png",
+        "audio": "/audio/spanish/2015-11.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Translations - Q1",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Translations - Q2",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/P2-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q3",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q4",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q4-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q5",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q6",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q6-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Guidelines - Q7",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q7-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q8",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q8-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Small Reading Comprehension - Q9",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q9-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Long Reading Comprehension - Q10",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q10-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Long Reading Comprehension - Q11",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q11-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Comprehension - Long Reading Comprehension - Q12",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q12.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P2-Q12-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Written Section - Numbers",
+        "tags" : ["Numbers"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Written Section - Sentences",
+        "tags" : ["Sentences"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Written Section - Letter",
+        "tags" : ["Letter"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2015-P3-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - A. Diálogos - Q1",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q1-MS.png",
+        "audio": "/audio/spanish/2014-1.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - A. Diálogos - Q2",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q2-MS.png",
+        "audio": "/audio/spanish/2014-2.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - A. Diálogos - Q3",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q3-MS.png",
+        "audio": "/audio/spanish/2014-3.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - A. Diálogos - Q4",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q4-MS.png",
+        "audio": "/audio/spanish/2014-4.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Anuncios - Q5",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q5-MS.png",
+        "audio": "/audio/spanish/2014-5.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Anuncios - Q6",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q6-MS.png",
+        "audio": "/audio/spanish/2014-6.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Anuncios - Q7",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q7-MS.png",
+        "audio": "/audio/spanish/2014-7.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Anuncios - Q8",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q8-MS.png",
+        "audio": "/audio/spanish/2014-8.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Una Noticia - Q9",
+        "tags" : ["C. Noticia"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q9-MS.png",
+        "audio": "/audio/spanish/2014-9.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - D. Descriptivo - Q10",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q10-MS.png",
+        "audio": "/audio/spanish/2014-10.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - D.Descriptivo - Q11",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P1-Q11-MS.png",
+        "audio": "/audio/spanish/2014-11.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Translations - Q1",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Translations - Q2",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/P2-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q3",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q4",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q4-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q5",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q6",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q6-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Guidelines - Q7",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q7-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q8",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q8-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Small Reading Comprehension - Q9",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q9-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Long Reading Comprehension - Q10",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q10-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Long Reading Comprehension - Q11",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q11-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Comprehension - Long Reading Comprehension - Q12",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q12.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P2-Q12-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Written Section - Numbers",
+        "tags" : ["Numbers"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Written Section - Sentences",
+        "tags" : ["Sentences"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Written Section - Letter",
+        "tags" : ["Letter"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2014-P3-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - A. Diálogos - Q1",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q1-MS.png",
+        "audio": "/audio/spanish/2013-1.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - A. Diálogos - Q2",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q2-MS.png",
+        "audio": "/audio/spanish/2013-2.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - A. Diálogos - Q3",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q3-MS.png",
+        "audio": "/audio/spanish/2013-3.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - A. Diálogos - Q4",
+        "tags" : ["A. Diálogos"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q4-MS.png",
+        "audio": "/audio/spanish/2013-4.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Anuncios - Q5",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q5-MS.png",
+        "audio": "/audio/spanish/2013-5.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Anuncios - Q6",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q6-MS.png",
+        "audio": "/audio/spanish/2013-6.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Anuncios - Q7",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q7-MS.png",
+        "audio": "/audio/spanish/2013-7.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Anuncios - Q8",
+        "tags" : ["B. Anuncios"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q8-MS.png",
+        "audio": "/audio/spanish/2013-8.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Una Noticia - Q9",
+        "tags" : ["C. Noticia"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q9-MS.png",
+        "audio": "/audio/spanish/2013-9.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - D. Descriptivo - Q10",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q10-MS.png",
+        "audio": "/audio/spanish/2013-10.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - D.Descriptivo - Q11",
+        "tags" : ["D. Descriptivo"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P1-Q11-MS.png",
+        "audio": "/audio/spanish/2013-11.mp3",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Translations - Q1",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Translations - Q2",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/P2-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q3",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q3-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q4",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q4.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q4-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q5",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q5.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q5-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q6",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q6.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q6-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Guidelines - Q7",
+        "tags" : ["Translations"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q7.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q7-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q8",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q8.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q8-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Small Reading Comprehension - Q9",
+        "tags" : ["Small Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q9.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q9-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Long Reading Comprehension - Q10",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q10.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q10-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Long Reading Comprehension - Q11",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q11.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q11-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Comprehension - Long Reading Comprehension - Q12",
+        "tags" : ["Long Reading Comprehensions"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q12.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P2-Q12-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Written Section - Numbers",
+        "tags" : ["Numbers"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q1.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q1-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Written Section - Sentences",
+        "tags" : ["Sentences"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q2.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q2-MS.png",
+        "difficulty": 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Written Section - Letter",
+        "tags" : ["Letter"],
+        "src": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q3.png",
+        "ms": "/ActualPapers/Spanish/hl/screenshots/2013-P3-Q3-MS.png",
+        "difficulty": 1
+      }
+    ]
   },
   "religion" : {
     "text" : "partials/religion",

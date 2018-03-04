@@ -26,26 +26,27 @@
     	<script src="js/stripe.js" data-rel-js></script>
     </head>
     <body>
-    	<div class="container">
-			<div class=title>
-				<a href="/" >
-					<i class="fas fa-graduation-cap"></i>
-					JC Papers
-				</a>
+    	<div class="wrapper">
+	    	<div class="container">
+				<div class=title>
+					<a href="/" >
+						<i class="fas fa-graduation-cap"></i>
+						JC Papers
+					</a>
+				</div>
+				<div class="navigation">
+					<div><a href="/about">About</a></div>
+					<div><a href="/subjects">Subjects</a></div>
+					<% if(user){ %>
+						<!-- <div ><p class="user">Logged in as <%# (user.local.username || user.facebook.name) %></p></div> -->
+						<div><a href="/profile">Profile</a></div>
+						<div><a href="/logout">Logout</a></div>
+					<% } %>
+					<% if(!user){ %>
+						<div><a href="/login">Login</a></div>
+						<div><a href="/register">Register</a></div>
+					<% } %>
+				</div>
 			</div>
-			<div class="navigation">
-				<div><a href="/about">About</a></div>
-				<div><a href="/subjects">Subjects</a></div>
-				<% if(user){ %>
-					<!-- <div ><p class="user">Logged in as <%# (user.local.username || user.facebook.name) %></p></div> -->
-					<div><a href="/profile">Profile</a></div>
-					<div><a href="/logout">Logout</a></div>
-				<% } %>
-				<% if(!user){ %>
-					<div><a href="/login">Login</a></div>
-					<div><a href="/register">Register</a></div>
-				<% } %>
-			</div>
-		</div>
 		    	
 		

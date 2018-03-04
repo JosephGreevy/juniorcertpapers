@@ -196,7 +196,7 @@ router.post("/pay", (req, res) => {
 				expires.setDate(expires.getDate() + 152);
 				console.log("Expires = " + expires);
 			}
-			User.findOneAndUpdate( { "facebook.name" : req.user.facebook.namename }, { $set: {
+			User.findOneAndUpdate( { "facebook.name" : req.user.facebook.name }, { $set: {
 				"facebook.subscribed" : 2,
 				"facebook.expires"    : expires
 			 } }, function(err, updatedUser){
@@ -204,6 +204,7 @@ router.post("/pay", (req, res) => {
 					console.log(err);
 					res.redirect("/about");
 				}else{
+					let name = req.user.facebook.name;
 					let mailOptions = {
 						from : '"Joseph" <jpgreevy@gmail.com',
 						to : email,
