@@ -5,12 +5,17 @@ function changeCat(cat){
 	let cats         = document.querySelectorAll(".categories ul li");
 	let questionList = document.querySelector("ul.questions");
 	let details      = document.querySelector("div.details");
+	var selectedCategoryText = document.querySelector(".selectedCategory span");
 	for (var i = 0; i < cats.length; i++) {
 		if(cats[i].innerText == cat){
 			cats[i].classList.add("selected-category");
+			selectedCategoryText.innerText = cat;
 		}else if(cats[i].classList.contains("selected-category")){
 			cats[i].classList.remove("selected-category");
 		}
+	}
+	if(window.innerWidth < 800){
+			toggle();
 	}
 	let displaying   = [];
 	if(questionList){
@@ -63,17 +68,32 @@ function toggleDisplay(event){
 		}
 	}
 }
-function formatDate(date) {
-  var monthNames = [
-    "January", "February", "March",
-    "April", "May", "June", "July",
-    "August", "September", "October",
-    "November", "December"
-  ];
 
-  var day = date.getDate();
-  var monthIndex = date.getMonth();
-  var year = date.getFullYear();
+document.querySelector(".selectedCategory").addEventListener('click', toggle());
+function myFunction(x) {
+	var items = document.querySelectorAll(".categories ul li:not(.selectedCategory)");
+    if (x.matches) { // If media query matches
+        for (var i = items.length - 1; 	i >= 0; i--) {
+			items[i].style.display = "block";
+		}
+    }
+}
 
-  return day + ' ' + monthNames[monthIndex] + ' ' + year;
+var x = window.matchMedia("(min-width: 800px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+function toggle(){
+	var caret = document.querySelector(".selectedCategory .cat-caret");
+	var items = document.querySelectorAll(".categories ul li:not(.selectedCategory)");
+	for (var i = items.length - 1; 	i >= 0; i--) {
+		if(items[i].style.display !== "block"){
+			items[i].style.display = "block";
+			caret.classList.remove("fa-caret-down");
+			caret.classList.add("fa-caret-up");
+		}else{
+			items[i].style.display = "none";
+			caret.classList.remove("fa-caret-up");
+			caret.classList.add("fa-caret-down");
+		}
+	}
 }

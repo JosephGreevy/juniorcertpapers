@@ -46,13 +46,44 @@ function sendMail(user){
 	let mailOptions = {
 		from : '"Joseph" <jpgreevy@gmail.com',
 		to : email,
-		subject : "JC Papers Free Trial Expiration",
-		html : "Hello " + (name) + ", <br> Unfortunately your <a href='https://juniorcertpapers.ie'>JC Papers</a> free trial has expired." +
-		"If you wish to continue using premium features such as Exam Paper " +
-		"Analysis, you can upgrade to a premium account for as little as €1 per month(€5 for 5 months) <br>" +
-		"If you'd rather not pay for a premium account we encourage you to continue using the free portions of the site. We also ask that " +
-		"you send us an email with any improvements you think should be make. It would be greatly appreciated." +
-		"Kind Regards" 
+		subject : "Successful Registration to JC Papers and Email Verification",
+		html :  "<h1 style='margin-bottom: 0'>" +
+					"<a href='www.juniorcertpapers.ie' style='text-decoration:none; color:black; text-align:center; height: 30px;" + 
+					"line-height: 30px; display: block;'>" +
+						"<img src='cid:logo32-jcpapers' style='margin-right:5px; vertical-align:middle; padding-bottom: 3px;'/>" +
+						"JC Papers" +
+					"</a>" +
+				"</h1>" +
+				"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
+				"<div style='width: 80%; margin-left: 10%; font-size:20px; color: black; line-height:1.2em;'>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Hi " + name + "," + 
+					"</p>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Unfortunately your free trial has run out. If you have found JC Papers useful we encourage you to upgrade below. " +
+						"We are currently running a special offer where you can get 5 months of premium for only €5" +
+					"</p>" +
+
+					"<a href='https://juniorcertpapers.ie/upgrade'" +
+					"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
+					"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none; white-space: nowrap;" +
+			 		"'>Upgrade to Premium</a>" +
+					"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
+						"If you do not wish to upgrade to premium, we urge you to continue using the basic features of JC Papers. " +
+						"We would also greatly appreciate any feedback you have about the service." +
+					"</p>" +
+					"<p style='margin-bottom: 1.75em'>" +
+						"Kind Regards," +
+					"</p>" +
+					"<p>" +
+						"	JC Papers" +
+					"</p>" +
+				"</div>",
+		attachments: [{
+	        filename: 'logo-32.png',
+	        path: 'public/images/logo-32.png',
+	        cid: 'logo32-jcpapers' //same cid value as in the html img src
+    	}] 
 	}
 	transporter.sendMail(mailOptions, (error, data) => {
 		if(error)

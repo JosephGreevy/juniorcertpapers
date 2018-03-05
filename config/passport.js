@@ -69,7 +69,7 @@ module.exports = function(passport){
 										"</a>" +
 									"</h1>" +
 									"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
-									"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+									"<div style='width: 80%; margin-left: 10%; font-size:20px; line-height:1.2em; color: black;'>" +
 										"<p style='margin-bottom: 1.75em'>" +
 											"Hi " + newUser.local.username + "," + 
 										"</p>" +
@@ -82,7 +82,7 @@ module.exports = function(passport){
 										"</p>" +
 										"<a href='https://juniorcertpapers.ie/verify/" + newUser.local.emailToken + "'" +
 										"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
-										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none;" +
+										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none; white-space: nowrap;" +
 								 		"'>Verify Email</a>" +
 										"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
 											"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +
@@ -190,7 +190,7 @@ module.exports = function(passport){
 										"</a>" +
 									"</h1>" +
 									"<hr style='height: 1.5px; background-color: #101010; width: 80%; margin: .5em 0 1em 10%;'>"  +
-									"<div style='width: 60%; margin-left: 20%; font-size:20px; line-height:1.2em;'>" +
+									"<div style='width: 80%; margin-left: 10%; font-size:20px; color: black; line-height:1.2em;'>" +
 										"<p style='margin-bottom: 1.75em'>" +
 											"Hi " + newUser.facebook.name + "," + 
 										"</p>" +
@@ -203,7 +203,7 @@ module.exports = function(passport){
 										"</p>" +
 										"<a href='https://juniorcertpapers.ie/verify/" + newUser.facebook.emailToken + "'" +
 										"style='background-color:#27bb5b; border-radius: 5px; font-size: 20px; color: rgba(255,255,255, 1);" +
-										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none;" +
+										"text-align: center; padding: 10px 40px 10px 40px; text-decoration: none; white-space: nowrap;" +
 								 		"'>Verify Email</a>" +
 										"<p style='margin-bottom: 2em; margin-top: 1.75em;'>" +
 											"If you have any questions please do not hesitate to contact us at this email address or our facebook page." +

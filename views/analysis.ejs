@@ -19,9 +19,10 @@
 	<div class="categories">
 		<h3>Categories</h3>
 		<ul>
+			<li class="selectedCategory"><span>Categories</span> <i class="fas cat-caret fa-caret-down"></i></li>
 			<% for (var i = 0; i < categories.length; i++) { %>
 				<li 
-					<% if(user){ %>
+					<% if(user && (user.local.verified !== false || user.facebook.verified !== false)){ %>
 						onClick="changeCat('<%= categories[i] %>')"
 					<% } %>
 						><%= categories[i] %></li>
@@ -74,4 +75,5 @@
 
 	</div>
 </div>
+<script type="text/javascript" src="/js/analysis.js"></script>
 <%- include('partials/footer') %>
