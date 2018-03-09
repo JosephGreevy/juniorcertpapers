@@ -3074,7 +3074,1081 @@
   },
   "french" : {
     "text" : "partials/french",
-    "categories" : []
+    "categories" : ["Short Conversations", "Long Conversations", "Introductions", "News Items", "Signs", "Short Reading Comprehensions",
+                    "Long Reading Comprehensions", "Postcard", "Letter"],
+    "hl" : [
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - A. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q1-MS.png",
+        "audio" : "/audio/french/2017-1.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q2-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q2-A-MS.png",
+        "audio" : "/audio/french/2017-2.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q2-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q2-B-MS.png",
+        "audio" : "/audio/french/2017-3.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-A-MS.png",
+        "audio" : "/audio/french/2017-4.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-B-MS.png",
+        "audio" : "/audio/french/2017-5.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-C-MS.png",
+        "audio" : "/audio/french/2017-6.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-D-MS.png",
+        "audio" : "/audio/french/2017-7.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q3-E-MS.png",
+        "audio" : "/audio/french/2017-8.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - D. Long Conversations",
+        "tags" : ["Long Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q4-MS.png",
+        "audio" : "/audio/french/2017-9.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-A-MS.png",
+        "audio" : "/audio/french/2017-10.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-B-MS.png",
+        "audio" : "/audio/french/2017-11.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-C-MS.png",
+        "audio" : "/audio/french/2017-12.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-D-MS.png",
+        "audio" : "/audio/french/2017-13.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P1-Q5-E-MS.png",
+        "audio" : "/audio/french/2017-14.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Signs - Q1",
+        "tags" : ["Signs"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - B. Short Reading Comprehensions - Q2",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Short Reading Comprehensions - Q3",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q3.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q3-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Short Reading Comprehensions - Q4",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q4-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Short Reading Comprehensions - Q5",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q5.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q5-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Short Reading Comprehensions - Q6",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q6.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q6-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Long Reading Comprehensions - Q7",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q7.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q7-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Long Reading Comprehensions - Q8",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q8.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q8-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Reading Section - Long Reading Comprehensions - Q9",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P2-Q9.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P2-Q9-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Writing Section - Postcard",
+        "tags" : ["Postcard"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P3-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/P3-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2017,
+        "name" : "2017 - Writing Section - Letter",
+        "tags" : ["Letter"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2017-P3-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2017-P3-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - A. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q1-MS.png",
+        "audio" : "/audio/french/2016-1.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q2-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q2-A-MS.png",
+        "audio" : "/audio/french/2016-2.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q2-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q2-B-MS.png",
+        "audio" : "/audio/french/2016-3.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-A-MS.png",
+        "audio" : "/audio/french/2016-4.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-B-MS.png",
+        "audio" : "/audio/french/2016-5.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-C-MS.png",
+        "audio" : "/audio/french/2016-6.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-D-MS.png",
+        "audio" : "/audio/french/2016-7.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q3-E-MS.png",
+        "audio" : "/audio/french/2016-8.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - D. Long Conversations",
+        "tags" : ["Long Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q4-MS.png",
+        "audio" : "/audio/french/2016-9.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-A-MS.png",
+        "audio" : "/audio/french/2016-10.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-B-MS.png",
+        "audio" : "/audio/french/2016-11.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-C-MS.png",
+        "audio" : "/audio/french/2016-12.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-D-MS.png",
+        "audio" : "/audio/french/2016-13.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P1-Q5-E-MS.png",
+        "audio" : "/audio/french/2016-14.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Signs - Q1",
+        "tags" : ["Signs"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - B. Short Reading Comprehensions - Q2",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Short Reading Comprehensions - Q3",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q3.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q3-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Short Reading Comprehensions - Q4",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q4-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Short Reading Comprehensions - Q5",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q5.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q5-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Short Reading Comprehensions - Q6",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q6.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q6-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Long Reading Comprehensions - Q7",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q7.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q7-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Long Reading Comprehensions - Q8",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q8.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q8-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Reading Section - Long Reading Comprehensions - Q9",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P2-Q9.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P2-Q9-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Writing Section - Postcard",
+        "tags" : ["Postcard"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P3-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/P3-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2016,
+        "name" : "2016 - Writing Section - Letter",
+        "tags" : ["Letter"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2016-P3-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2016-P3-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - A. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q1-MS.png",
+        "audio" : "/audio/french/2015-1.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q2-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q2-A-MS.png",
+        "audio" : "/audio/french/2015-2.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q2-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q2-B-MS.png",
+        "audio" : "/audio/french/2015-3.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-A-MS.png",
+        "audio" : "/audio/french/2015-4.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-B-MS.png",
+        "audio" : "/audio/french/2015-5.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-C-MS.png",
+        "audio" : "/audio/french/2015-6.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-D-MS.png",
+        "audio" : "/audio/french/2015-7.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q3-E-MS.png",
+        "audio" : "/audio/french/2015-8.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - D. Long Conversations",
+        "tags" : ["Long Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q4-MS.png",
+        "audio" : "/audio/french/2015-9.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-A-MS.png",
+        "audio" : "/audio/french/2015-10.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-B-MS.png",
+        "audio" : "/audio/french/2015-11.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-C-MS.png",
+        "audio" : "/audio/french/2015-12.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-D-MS.png",
+        "audio" : "/audio/french/2015-13.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P1-Q5-E-MS.png",
+        "audio" : "/audio/french/2015-14.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Signs - Q1",
+        "tags" : ["Signs"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - B. Short Reading Comprehensions - Q2",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Short Reading Comprehensions - Q3",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q3.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q3-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Short Reading Comprehensions - Q4",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q4-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Short Reading Comprehensions - Q5",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q5.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q5-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Short Reading Comprehensions - Q6",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q6.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q6-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Long Reading Comprehensions - Q7",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q7.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q7-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Long Reading Comprehensions - Q8",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q8.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q8-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Reading Section - Long Reading Comprehensions - Q9",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P2-Q9.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P2-Q9-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Writing Section - Postcard",
+        "tags" : ["Postcard"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P3-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/P3-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2015,
+        "name" : "2015 - Writing Section - Letter",
+        "tags" : ["Letter"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2015-P3-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2015-P3-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - A. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q1-MS.png",
+        "audio" : "/audio/french/2014-1.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q2-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q2-A-MS.png",
+        "audio" : "/audio/french/2014-2.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q2-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q2-B-MS.png",
+        "audio" : "/audio/french/2014-3.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-A-MS.png",
+        "audio" : "/audio/french/2014-4.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-B-MS.png",
+        "audio" : "/audio/french/2014-5.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-C-MS.png",
+        "audio" : "/audio/french/2014-6.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-D-MS.png",
+        "audio" : "/audio/french/2014-7.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q3-E-MS.png",
+        "audio" : "/audio/french/2014-8.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - D. Long Conversations",
+        "tags" : ["Long Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q4-MS.png",
+        "audio" : "/audio/french/2014-9.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-A-MS.png",
+        "audio" : "/audio/french/2014-10.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-B-MS.png",
+        "audio" : "/audio/french/2014-11.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-C-MS.png",
+        "audio" : "/audio/french/2014-12.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-D-MS.png",
+        "audio" : "/audio/french/2014-13.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P1-Q5-E-MS.png",
+        "audio" : "/audio/french/2014-14.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Signs - Q1",
+        "tags" : ["Signs"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - B. Short Reading Comprehensions - Q2",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Short Reading Comprehensions - Q3",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q3.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q3-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Short Reading Comprehensions - Q4",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q4-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Short Reading Comprehensions - Q5",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q5.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q5-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Short Reading Comprehensions - Q6",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q6.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q6-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Long Reading Comprehensions - Q7",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q7.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q7-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Long Reading Comprehensions - Q8",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q8.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q8-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Reading Section - Long Reading Comprehensions - Q9",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P2-Q9.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P2-Q9-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Writing Section - Postcard",
+        "tags" : ["Postcard"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P3-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/P3-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2014,
+        "name" : "2014 - Writing Section - Letter",
+        "tags" : ["Letter"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2014-P3-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2014-P3-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - A. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q1-MS.png",
+        "audio" : "/audio/french/2013-1.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q2-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q2-A-MS.png",
+        "audio" : "/audio/french/2013-2.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - B. Introductions",
+        "tags" : ["Introductions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q2-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q2-B-MS.png",
+        "audio" : "/audio/french/2013-3.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-A-MS.png",
+        "audio" : "/audio/french/2013-4.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-B-MS.png",
+        "audio" : "/audio/french/2013-5.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-C-MS.png",
+        "audio" : "/audio/french/2013-6.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-D-MS.png",
+        "audio" : "/audio/french/2013-7.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - C. Short Conversations",
+        "tags" : ["Short Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q3-E-MS.png",
+        "audio" : "/audio/french/2013-8.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - D. Long Conversations",
+        "tags" : ["Long Conversations"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q4-MS.png",
+        "audio" : "/audio/french/2013-9.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-A.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-A-MS.png",
+        "audio" : "/audio/french/2013-10.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-B.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-B-MS.png",
+        "audio" : "/audio/french/2013-11.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-C.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-C-MS.png",
+        "audio" : "/audio/french/2013-12.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-D.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-D-MS.png",
+        "audio" : "/audio/french/2013-13.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Listening Comprehension - E. News Items",
+        "tags" : ["News Items"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-E.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P1-Q5-E-MS.png",
+        "audio" : "/audio/french/2013-14.mp3",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Signs - Q1",
+        "tags" : ["Signs"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - B. Short Reading Comprehensions - Q2",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q2-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Short Reading Comprehensions - Q3",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q3.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q3-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Short Reading Comprehensions - Q4",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q4.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q4-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Short Reading Comprehensions - Q5",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q5.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q5-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Short Reading Comprehensions - Q6",
+        "tags" : ["Short Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q6.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q6-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Long Reading Comprehensions - Q7",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q7.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q7-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Long Reading Comprehensions - Q8",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q8.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q8-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Reading Section - Long Reading Comprehensions - Q9",
+        "tags" : ["Long Reading Comprehensions"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P2-Q9.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P2-Q9-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Writing Section - Postcard",
+        "tags" : ["Postcard"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P3-Q1.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/P3-Q1-MS.png",
+        "difficulty" : 1
+      },
+      {
+        "year" : 2013,
+        "name" : "2013 - Writing Section - Letter",
+        "tags" : ["Letter"],
+        "src"  : "/ActualPapers/French/hl/screenshots/2013-P3-Q2.png",
+        "ms"   : "/ActualPapers/French/hl/screenshots/2013-P3-Q2-MS.png",
+        "difficulty" : 1
+      }
+
+    ]
   },
   "german" : {
     "text" : "partials/german",

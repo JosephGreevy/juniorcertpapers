@@ -108,7 +108,92 @@
         ]
       ]
     },
-    "ol": {}
+    "ol": {
+      "2012": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2012/Paper_1.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2012/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2012/Paper_2.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2012/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2013": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2013/Paper_1.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2013/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2013/Paper_2.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2013/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2014": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2014/Paper_1.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2014/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2014/Paper_2.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2014/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2015": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2015/Paper_1.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2015/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2015/Paper_2.pdf",
+          "Solutions",
+          "/ActualPapers/Maths/ol/2015/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2016": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2016/Paper_1.pdf",
+          "Marking Scheme",
+          "/ActualPapers/Maths/ol/2016/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2016/Paper_2.pdf",
+          "Marking Scheme",
+          "/ActualPapers/Maths/ol/2016/Paper_2_Marking_Scheme.pdf"
+        ]
+      ],
+      "2017": [
+        [
+          "Paper 1",
+          "/ActualPapers/Maths/ol/2017/Paper_1.pdf",
+          "Marking Scheme",
+          "/ActualPapers/Maths/ol/2017/Paper_1_Marking_Scheme.pdf"
+        ],
+        [
+          "Paper 2",
+          "/ActualPapers/Maths/ol/2017/Paper_2.pdf",
+          "Marking Scheme",
+          "/ActualPapers/Maths/ol/2017/Paper_2_Marking_Scheme.pdf"
+        ]
+      ]
+    }
   },
   "irish": {
     "years": [
