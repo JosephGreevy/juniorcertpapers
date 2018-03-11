@@ -32,6 +32,9 @@ html, body{
  	color: white;
  	text-decoration: none;
  }
+ .footer-upgrade{
+ 	margin-right: 20px;
+ }
  /* NavBar */
 
 
@@ -936,7 +939,7 @@ html, body{
 	text-align: center;
 	color: #202020;
 	margin-bottom: .2em;
-	font-size: 1.75em;
+	font-size: 1em;
 }
 .categories{
 	margin: 0 0 2em 0;
@@ -1052,8 +1055,14 @@ hr.sub{
 		width: 60%;
 		margin-left: 20%;
 	}
+	.banner h2{
+		font-size: 1.3em;
+	}
 }
 @media(min-width: 800px){
+	.banner h2{
+		font-size: 1.3em;
+	}
 	.categories{
 		width: auto;
 		margin: 0;

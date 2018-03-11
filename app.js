@@ -1,7 +1,6 @@
 const express 			= require("express");
 const app				= express();
 const bodyParser        = require("body-parser");
-const morgan            = require("morgan");
 const session    		= require("express-session");
 const cookieParser      = require("cookie-parser");
 const passport          = require("passport");
@@ -13,7 +12,6 @@ const routes  	= require('./config/routes');
 const job       = require('./config/schedule');
 
 
-app.use(morgan('dev'));
 app.use(cookieParser("Manchester City are still alive here. Ballotelli, Aguerooooooooooooooo!"));
 app.use(session({
 	secret: "Manchester City are still alive here. Ballotelli, Aguerooooooooooooooo!",

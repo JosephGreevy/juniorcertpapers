@@ -22,7 +22,7 @@
 			<li class="selectedCategory"><span>Categories</span> <i class="fas cat-caret fa-caret-down"></i></li>
 			<% for (var i = 0; i < categories.length; i++) { %>
 				<li 
-					<% if(user && (user.local.verified !== false || user.facebook.verified !== false)){ %>
+					<% if(user && (user.local.verified === true || user.facebook.verified === true)){ %>
 						onClick="changeCat('<%= categories[i] %>')"
 					<% } %>
 						><%= categories[i] %></li>

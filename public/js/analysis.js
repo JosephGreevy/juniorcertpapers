@@ -73,13 +73,10 @@ document.querySelector(".selectedCategory").addEventListener('click', function()
 	var caret = document.querySelector(".selectedCategory .cat-caret");
 	var items = document.querySelectorAll(".categories ul li:not(.selectedCategory)");
 	for (var i = items.length - 1; 	i >= 0; i--) {
-		console.log("Boom");
 		if(items[i].style.display !== "block"){
 			items[i].style.display = "block";
 			caret.classList.remove("fa-caret-down");
-			caret.classList.add("fa-caret-up");
-			console.log("changing");
-		}else{
+			caret.classList.add("fa-caret-up");		}else{
 			items[i].style.display = "none";
 			caret.classList.remove("fa-caret-up");
 			caret.classList.add("fa-caret-down");
