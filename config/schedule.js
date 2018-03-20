@@ -12,7 +12,10 @@ var j = schedule.scheduleJob('0 0 * * *', function(){
 		{"facebook.expires" : {$lt : now}}
 	]}, function(err, expiredAccounts){
 			expiredAccounts.forEach(user => {
-				if(user.hasOwnProperty("local")){
+				console.log("User is a " + typeof user);
+				console.log("User is local : " + user.hasOwnProperty('local'));
+				if(user.hasOwnProperty('local')){
+					console.log("Sending email to local user");
 					user.local.subscribed = 1;
 					user.local.expires    = null;
 					user.save(function(err, updatedUser){
